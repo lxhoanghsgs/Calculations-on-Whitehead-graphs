@@ -16,8 +16,30 @@ def get_length_two_subwords(list_of_words):
     return list_of_length_two_subwords
 # print(get_length_two_subwords(sample_list_of_words))
 gen_dict = {"a": 0, "A": 1, "b": 2, "B": 3, "c": 4, "C": 5}
-def get_whitehead_graph(list_of_words):
+def get_edge_pairing_of_single_word(word, w_index):
+    dict_of_edge_pairing = {"a": [], "b": [], "c": []}
+    l = get_length_two_subwords([word])
+    for i in range(len(l)):
+        if i == 0:
+            if l[0][0].islower():
+                dict_of_edge_pairing[l[0][0]].append((w_index, len(l) - 1 + w_index))
+            else:
+                m = l[0][0].lower()
+                dict_of_edge_pairing[m].append((w_index, len(l) - 1 + w_index))
+        elif l[i][0].islower():
+            dict_of_edge_pairing[l[i][0]].append((i + w_index, i-1 + w_index))
+        else:
+            m = l[0][0].lower()
+            dict_of_edge_pairing[m].append((i + w_index, i-1 + w_index))             
+    return dict_of_edge_pairing
+def get_whitehead_graph_with_edge_pairing(list_of_words):
     # Rows: a, A, b, B, c, C
+    dict_of_edge_pairing = {"a": [], "b": [], "c": []}
+    for i in range(len(list_of_words)):
+        d = get_edge_pairing_of_single_word(list_of_words[i], sum([len(list_of_words[j]) for j in range(i)], 0))
+        dict_of_edge_pairing["a"].extend(d["a"])
+        dict_of_edge_pairing["b"].extend(d["b"])
+        dict_of_edge_pairing["c"].extend(d["c"])
     l = get_length_two_subwords(list_of_words)
     res = np.zeros((n, len(l)))
     for i in range(len(l)):
@@ -29,7 +51,7 @@ def get_whitehead_graph(list_of_words):
         else:
             w[1] = w[1].lower()
             res[gen_dict[w[1]], i] = 1
-    return res
+    return (res, dict_of_edge_pairing)
 def is_connected(whitehead_graph):
     return np.linalg.matrix_rank(whitehead_graph) == n - 1
 def is_pairwise_well_connected(whitehead_graph):
@@ -45,7 +67,7 @@ def is_pairwise_well_connected(whitehead_graph):
             return False
     return True
 def is_minimal_and_diskbusting(list_of_words):
-    A_G = get_whitehead_graph(list_of_words)
+    A_G = get_whitehead_graph_with_edge_pairing(list_of_words)[0]
     return is_connected(A_G) and is_pairwise_well_connected(A_G)
 def get_all_cycles(incidence_matrix):
     all_c = []
@@ -54,10 +76,11 @@ def get_all_cycles(incidence_matrix):
         if all([i in {0, 2} for i in resulting_check]):
             all_c.append(v)
     return all_c
-A_G = get_whitehead_graph(sample_list_of_words)
+A_G, edge_pairing = get_whitehead_graph_with_edge_pairing(sample_list_of_words)
 print(is_minimal_and_diskbusting(sample_list_of_words))
-print(get_all_cycles(A_G))
+# print(get_all_cycles(A_G))
+print(edge_pairing)
 # Assumption: each word is a power of order at least four of a certain word.
-# Only condition (d) of (4.23) is possible.
+# Only condition (d) of (4.23) (Cyclic polytope) is possible.
 
 
