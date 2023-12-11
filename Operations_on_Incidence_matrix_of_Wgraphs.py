@@ -22,15 +22,18 @@ def get_edge_pairing_of_single_word(word, w_index):
     for i in range(len(l)):
         if i == 0:
             if l[0][0].islower():
-                dict_of_edge_pairing[l[0][0]].append((w_index, len(l) - 1 + w_index))
+                dict_of_edge_pairing[l[0][0]].append((len(l) - 1 + w_index, w_index))
             else:
                 m = l[0][0].lower()
-                dict_of_edge_pairing[m].append((w_index, len(l) - 1 + w_index))
+                if (w_index, len(l) - 1 + w_index) not in dict_of_edge_pairing[m]:
+                    dict_of_edge_pairing[m].append((w_index, len(l) - 1 + w_index))
         elif l[i][0].islower():
-            dict_of_edge_pairing[l[i][0]].append((i + w_index, i-1 + w_index))
+            if (i-1 + w_index, i + w_index) not in dict_of_edge_pairing[l[i][0]]:
+                dict_of_edge_pairing[l[i][0]].append((i-1 + w_index, i + w_index))
         else:
             m = l[0][0].lower()
-            dict_of_edge_pairing[m].append((i + w_index, i-1 + w_index))             
+            if (i + w_index, i-1 + w_index) not in dict_of_edge_pairing[m]:
+                dict_of_edge_pairing[m].append((i + w_index, i-1 + w_index))             
     return dict_of_edge_pairing
 def get_whitehead_graph_with_edge_pairing(list_of_words):
     # Rows: a, A, b, B, c, C
@@ -75,11 +78,25 @@ def get_all_cycles(incidence_matrix):
         resulting_check = np.matmul(incidence_matrix, v)
         if all([i in {0, 2} for i in resulting_check]):
             all_c.append(v)
+    all_c.pop(0)
     return all_c
 A_G, edge_pairing = get_whitehead_graph_with_edge_pairing(sample_list_of_words)
-print(is_minimal_and_diskbusting(sample_list_of_words))
-# print(get_all_cycles(A_G))
-print(edge_pairing)
+# print(is_minimal_and_diskbusting(sample_list_of_words))
+cycles = get_all_cycles(A_G)
+cycle_mat = np.array(cycles)
+# gurobi model
+model = gp.Model("Find balanced list of cycles")
+vars = model.addMVar(shape = (1, len(cycles)), vtype = GRB.INTEGER, lb = 0)
+model.addConstr(gp.quicksum(vars) >= 1)
+# conditions for balance
+for gen in ["a", "b", "c"]:
+    for (i, j) in itertools.combinations(edge_pairing[gen], 2):
+        model.addConstr(gp.quicksum(vars[0, k] for k in range(len(cycles)) if cycles[k][i[0]] == 1 and cycles[k][j[0]] == 1) == gp.quicksum(vars[0, k] for k in range(len(cycles)) if cycles[k][i[1]] == 1 and cycles[k][j[1]] == 1))
+# calculations
+model.setObjective(gp.quicksum((vars @ cycle_mat)[0]), sense = GRB.MINIMIZE)
+model.Params.MIPFocus = 1
+model.optimize()
+print(model.X)
 # Assumption: each word is a power of order at least four of a certain word.
 # Only condition (d) of (4.23) (Cyclic polytope) is possible.
 
