@@ -37,24 +37,21 @@ def get_wgraphs_with_number_of_edges(n_edge: int) -> list:
     """
     Get all connected and pairwise well-connected Whitehead graphs on six vertices.
     """
-    res = []
     for edge_attr in stars_and_bars(n_edge, e):
         empty_graph = networkx.Graph()
         empty_graph.add_nodes_from(generator_for_nx_nodes)
         edge_bunch = [all_edges[i] + ({"weight": edge_attr[i]},) for i in range(e) if edge_attr[i] > 0]
         empty_graph.add_edges_from(edge_bunch)
         if is_connected_and_pairwise_well_connected(empty_graph):
-            res.append(empty_graph)
-    return res
-n_edge = 8
+            yield empty_graph
+n_edge = 11
 t1 = time.perf_counter()
-for k in range(9, 12):
-    n_edge = k
-    with open(f"whitehead_graphs_with_{n_edge}_edges.txt", 'w') as f:
-        g_data = get_wgraphs_with_number_of_edges(n_edge)
-        for i in range(len(g_data)):
-            print(f"Wgraph {i} \n", file = f)
-            print(f"{g_data[i].edges(data = 'weight')}\n", file = f)
-        f.close()
+with open(f"whitehead_graphs_with_{n_edge}_edges.txt", 'a') as f:
+    count = 0
+    for G in get_wgraphs_with_number_of_edges(n_edge):
+        count += 1
+        f.write(f"Wgraph number {count} \n")
+        f.write(f"{G.edges(data = 'weight')}\n")
+    f.close()
 t2 = time.perf_counter()
 print(f"time_run = {round(t2 - t1, 2)}")

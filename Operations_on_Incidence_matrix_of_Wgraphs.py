@@ -9,7 +9,7 @@ import networkx
 generator = ["a", "b", "c", "A", "B", "C"]
 n = len(generator)
 sample_list_of_words = ["abcABcc",]
-def get_length_two_subwords(list_of_words):
+def get_length_two_subwords(list_of_words: list) -> list:
     list_of_length_two_subwords = []
     for i in list_of_words:
         for j in range(-1, len(i)-1):
