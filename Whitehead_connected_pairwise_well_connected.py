@@ -42,16 +42,21 @@ def get_wgraphs_with_number_of_edges(n_edge: int) -> list:
         empty_graph.add_nodes_from(generator_for_nx_nodes)
         edge_bunch = [all_edges[i] + ({"weight": edge_attr[i]},) for i in range(e) if edge_attr[i] > 0]
         empty_graph.add_edges_from(edge_bunch)
-        if is_connected_and_pairwise_well_connected(empty_graph):
+        if is_connected_and_pairwise_well_connected(empty_graph) and not any([networkx.is_regular(empty_graph), 'a' in empty_graph['A'], 'b' in empty_graph['B'], 'c' in empty_graph['C']]):
             yield empty_graph
-n_edge = 11
+n_edge = 10
 t1 = time.perf_counter()
-with open(f"whitehead_graphs_with_{n_edge}_edges.txt", 'a') as f:
+with open(f"Interesting_whitehead_graphs_with_{n_edge}_edges.txt", 'w') as f:
     count = 0
     for G in get_wgraphs_with_number_of_edges(n_edge):
         count += 1
         f.write(f"Wgraph number {count} \n")
         f.write(f"{G.edges(data = 'weight')}\n")
+        print(count)
+        if count == 3001:
+            break
     f.close()
 t2 = time.perf_counter()
 print(f"time_run = {round(t2 - t1, 2)}")
+# A small question: Are there any case that we can ensure that these graphs must have edges between corresponding vertices?!
+# We can omit the case that the resulting graph is regular.
