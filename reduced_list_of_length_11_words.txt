@@ -1,0 +1,176 @@
+Word: aabcaBcbcbC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc']}
+Word: aabcaBCBcbC, List of cycles: {2.0: ['bC', 'bC'], 1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc']}
+Word: aabcbcbACbC, List of cycles: {1.0: ['AC', 'aA', 'Bc', 'ab', 'BC', 'bc']}
+Word: aabcbACBCbC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'BC'], 2.0: ['AC', 'aA', 'ab', 'bC']}
+Word: aabacbccabb, List of cycles: {1.0: ['Ab', 'Ab']}
+Word: aaabcbcBcBC, List of cycles: {2.0: ['bC', 'Bc', 'BC', 'bc'], 1.0: ['AC', 'aA', 'aB', 'bC', 'bc', 'Bc']}
+Word: aaaabaccbbc, List of cycles: {1.0: ['Ac', 'aA', 'aC', 'Bc', 'bB', 'bC']}
+Word: aabcbAcbCBc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC'], 2.0: ['bC', 'Bc', 'bc', 'BC']}
+Word: aabbaccbabc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'bB', 'cC', 'bC']}
+Word: aabcBCBcbAc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aaaabcBcbAC, List of cycles: {1.0: ['AC', 'aA', 'bc', 'BC', 'Bc', 'ab']}
+Word: aaabcbCbAAc, List of cycles: {2.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC'], 3.0: ['Ac', 'aB', 'Bc', 'aA'], 1.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC'], 4.0: ['aA', 'aA']}
+Word: aabcbCBcbAc, List of cycles: {2.0: ['Ac', 'aA', 'bC', 'Bc', 'BC', 'ab'], 9.0: ['bC', 'bC'], 3.0: ['Ac', 'aA', 'aB', 'bc', 'bC', 'BC'], 5.0: ['aB', 'Bc', 'bc', 'ab'], 4.0: ['Ac', 'aA', 'aB', 'Bc'], 7.0: ['aA', 'bC', 'ab', 'AC'], 1.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aaabcaaBcbC, List of cycles: {1.0: ['AC', 'aA', 'ab', 'BC', 'Bc', 'bc']}
+Word: aaabcbcBcbC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc'], 2.0: ['aA', 'aA']}
+Word: aaabcbAAcBc, List of cycles: {1.0: ['Ac', 'aA', 'bC', 'Bc', 'ab', 'BC']}
+Word: aabbaacbbcc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'bB', 'bC', 'cC']}
+Word: aabcBcbCbAc, List of cycles: {1.0: ['Ac', 'aA', 'bc', 'ab']}
+Word: aaabcbcBCbC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'bc', 'Bc'], 2.0: ['aA', 'aA']}
+Word: aabcbCbCbAC, List of cycles: {1.0: ['AC', 'aA', 'Bc', 'BC', 'bc', 'ab']}
+Word: aabcBcbcbAC, List of cycles: {4.0: ['AC', 'aA', 'bC', 'ab'], 1.0: ['AC', 'aA', 'aB', 'bC', 'bc', 'Bc'], 2.0: ['AC', 'aA', 'bc', 'BC', 'Bc', 'ab'], 5.0: ['bC', 'bC'], 3.0: ['aA', 'aB', 'Bc', 'Ac']}
+Word: aabcaBCBCbC, List of cycles: {2.0: ['Bc', 'Bc'], 1.0: ['AC', 'aA', 'bC', 'ab']}
+Word: aabcbAcBCbc, List of cycles: {2.0: ['Ac', 'aA', 'aB', 'Bc'], 1.0: ['Ac', 'aA', 'bC', 'Bc', 'ab', 'BC']}
+Word: aabcBCbCbAc, List of cycles: {3.0: ['BC', 'BC'], 1.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC'], 2.0: ['Ac', 'aA', 'bc', 'ab']}
+Word: aaaabcaBcBC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'BC']}
+Word: aaabbabbccc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'bB', 'bC', 'cC'], 2.0: ['aA', 'aB', 'bB', 'Ab']}
+Word: aaabbaccbbc, List of cycles: {2.0: ['Ac', 'aA', 'aC', 'cC'], 3.0: ['bB', 'bB'], 4.0: ['aA', 'aB', 'bB', 'Ab'], 1.0: ['Ac', 'aA', 'aB', 'cC', 'bB', 'bC']}
+Word: aaabcBCbCBc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC'], 2.0: ['aA', 'aA']}
+Word: aababccbbac, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aaabbccbccb, List of cycles: {1.0: ['Ab', 'aA', 'aB', 'bC', 'cC', 'Bc']}
+Word: aaabcBCbAAC, List of cycles: {1.0: ['AC', 'aA', 'bc', 'Bc', 'BC', 'ab']}
+Word: aabcaBCBcBC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc']}
+Word: aabcbACbcBC, List of cycles: {2.0: ['AC', 'aA', 'aB', 'bC', 'bc', 'Bc'], 1.0: ['AC', 'aA', 'aB', 'BC']}
+Word: aabcbAcBCBc, List of cycles: {1.0: ['Ac', 'aA', 'bC', 'Bc', 'ab', 'BC']}
+Word: aaaabcbAcBc, List of cycles: {1.0: ['Ac', 'aA', 'bC', 'Bc', 'ab', 'BC']}
+Word: aabcaBCbCbC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc']}
+Word: aabcaBCbCBC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc']}
+Word: aabcbcbCbAc, List of cycles: {1.0: ['Ac', 'aA', 'bc', 'ab']}
+Word: aaabbaaccbc, List of cycles: {1.0: ['Ac', 'aA', 'bB', 'aC', 'Bc', 'bC'], 2.0: ['aA', 'aA']}
+Word: aabcbACBcBC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'BC']}
+Word: aabcaBcBCBC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bc', 'bC', 'Bc']}
+Word: aaabcbCbCBC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'Bc', 'bc', 'bC'], 2.0: ['aA', 'aA']}
+Word: aaaaabbcccb, List of cycles: {1.0: ['Ab', 'aA', 'aB', 'bC', 'cC', 'Bc']}
+Word: aabcBcBcbAc, List of cycles: {8.0: ['bc', 'bc'], 1.0: ['Ac', 'aA', 'aB', 'bC', 'BC', 'bc'], 3.0: ['Ac', 'BC', 'Bc', 'AC'], 4.0: ['Ac', 'bC', 'bc', 'AC'], 2.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC'], 6.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC']}
+Word: aaabbbaaccc, List of cycles: {1.0: ['Ac', 'aA', 'aC', 'cC']}
+Word: aabcbACbCBC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'bc', 'Bc'], 2.0: ['bC', 'bC']}
+Word: aababbacbcc, List of cycles: {1.0: ['Ac', 'aB', 'Ab', 'aC', 'Bc', 'bC'], 2.0: ['aA', 'aB', 'bB', 'Ab']}
+Word: aaaabcBcbAc, List of cycles: {2.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC'], 1.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC'], 4.0: ['aA', 'aA']}
+Word: aabcbCbcbAC, List of cycles: {2.0: ['bC', 'bC'], 1.0: ['AC', 'aA', 'aB', 'bc', 'bC', 'Bc']}
+Word: aabcbACBcbC, List of cycles: {1.0: ['AC', 'aA', 'ab', 'BC', 'Bc', 'bc']}
+Word: aabcBcBCbAc, List of cycles: {1.0: ['Ac', 'aA', 'bc', 'ab']}
+Word: aaabbacccbb, List of cycles: {3.0: ['cC', 'cC'], 1.0: ['Ab', 'aA', 'bB', 'aC', 'cC', 'Bc'], 4.0: ['aA', 'aB', 'bB', 'Ab'], 2.0: ['Ab', 'aA', 'aC', 'cC', 'Bc', 'bB']}
+Word: aabcbcBcbAC, List of cycles: {1.0: ['AC', 'aA', 'bC', 'ab']}
+Word: aabacbabbcc, List of cycles: {1.0: ['Ac', 'aA', 'aC', 'Bc', 'bB', 'bC']}
+Word: aaababcccbb, List of cycles: {8.0: ['cC', 'cC'], 3.0: ['Ab', 'aA', 'aB', 'bC', 'cC', 'Bc'], 2.0: ['Ab', 'aA', 'aB', 'bC', 'cC', 'Bc'], 5.0: ['Ab', 'Ab'], 1.0: ['Ab', 'aA', 'aB', 'bC', 'cC', 'Bc']}
+Word: aaaabbccacb, List of cycles: {1.0: ['Ab', 'aA', 'aB', 'bB']}
+Word: aabcaBcBcBC, List of cycles: {7.0: ['BC', 'BC'], 1.0: ['AC', 'aA', 'aB', 'bC', 'bc', 'Bc'], 2.0: ['AC', 'aA', 'ab', 'BC', 'bc', 'Bc'], 3.0: ['AC', 'aA', 'aB', 'bC', 'bc', 'Bc']}
+Word: aabcbAcbCbc, List of cycles: {2.0: ['Ac', 'aA', 'aB', 'Bc'], 1.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aabbacabccb, List of cycles: {1.0: ['Ab', 'aA', 'aB', 'bC', 'cC', 'Bc']}
+Word: aabcBcbcbAc, List of cycles: {3.0: ['Bc', 'Bc'], 2.0: ['Ac', 'aB', 'bC', 'Bc', 'ab', 'AC'], 1.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC']}
+Word: aaababbcccb, List of cycles: {5.0: ['cC', 'cC'], 1.0: ['bB', 'bC', 'cC', 'Bc'], 3.0: ['bB', 'bC', 'cC', 'Bc'], 4.0: ['Ab', 'Ab'], 2.0: ['Ab', 'aA', 'aB', 'bC', 'cC', 'Bc']}
+Word: aaabcaaBcBC, List of cycles: {1.0: ['AC', 'aA', 'bC', 'ab']}
+Word: aabcBCbcbAc, List of cycles: {2.0: ['Ac', 'aA', 'aB', 'Bc'], 1.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aaabcbCbcBC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'BC'], 2.0: ['aA', 'aA']}
+Word: aabaccabbcb, List of cycles: {1.0: ['Ab', 'aA', 'aB', 'cC', 'bC', 'Bc']}
+Word: aabcBcBcbAC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'bc', 'Bc']}
+Word: aabbacbabcc, List of cycles: {1.0: ['Ac', 'aA', 'Bc', 'aB']}
+Word: aaaaabbbccc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'bB', 'bC', 'cC']}
+Word: aaaabbcaccb, List of cycles: {1.0: ['Ab', 'aA', 'bB', 'aC', 'cC', 'Bc']}
+Word: aaabcbCbCBc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aaaabbbbccc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'bB', 'bC', 'cC'], 2.0: ['aA', 'aA']}
+Word: aabcbCBCbAc, List of cycles: {3.0: ['aA', 'Bc', 'bc', 'BC', 'ab', 'AC'], 4.0: ['bC', 'bC'], 2.0: ['Ac', 'aA', 'aB', 'Bc'], 1.0: ['Ac', 'aA', 'aB', 'bc', 'bC', 'BC']}
+Word: aaaabbaccbc, List of cycles: {1.0: ['Ac', 'aA', 'aC', 'cC']}
+Word: aababcbbacc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aababbaccbc, List of cycles: {3.0: ['Ac', 'aA', 'aB', 'Bc'], 1.0: ['Ac', 'aB', 'Ab', 'aC', 'Bc', 'bC'], 2.0: ['Ac', 'aA', 'aB', 'Bc'], 5.0: ['aB', 'aB']}
+Word: aaabacbbccc, List of cycles: {1.0: ['aA', 'aB', 'Ab', 'Bc', 'bC', 'cC'], 2.0: ['Ac', 'aA', 'aC', 'cC']}
+Word: aaabcbCbcbC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc'], 2.0: ['aA', 'aA']}
+Word: aabcBCbcbAC, List of cycles: {2.0: ['AC', 'aA', 'aB', 'bc', 'bC', 'Bc'], 1.0: ['AC', 'aA', 'bC', 'ab']}
+Word: aaaabbcccbb, List of cycles: {1.0: ['Ab', 'aA', 'aB', 'bC', 'cC', 'Bc'], 2.0: ['aA', 'aA']}
+Word: aababacbbcc, List of cycles: {1.0: ['Ac', 'aB', 'Ab', 'aC', 'Bc', 'bC']}
+Word: aabcbcBCbAc, List of cycles: {1.0: ['Ac', 'aA', 'bC', 'Bc', 'BC', 'ab']}
+Word: aabcBcaBcBC, List of cycles: {6.0: ['BC', 'BC'], 7.0: ['bc', 'bc'], 4.0: ['AC', 'aB', 'BC', 'Ac', 'ab', 'bc'], 1.0: ['AC', 'aA', 'aB', 'bC', 'bc', 'Bc'], 2.0: ['AC', 'aA', 'aB', 'bC', 'bc', 'Bc'], 3.0: ['AC', 'aB', 'bc', 'Ac', 'ab', 'BC']}
+Word: aaabbccaacb, List of cycles: {1.0: ['Ab', 'aA', 'bB', 'cC', 'aC', 'Bc']}
+Word: aabcBcBCbAC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'BC']}
+Word: aaabcbcbCbC, List of cycles: {2.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc'], 1.0: ['AC', 'aA', 'aB', 'Bc', 'bC', 'bc'], 3.0: ['bC', 'Bc', 'bc', 'BC'], 4.0: ['aA', 'aA']}
+Word: aabcbCBcbAC, List of cycles: {2.0: ['AC', 'aB', 'bc', 'BC', 'ab', 'Ac'], 1.0: ['AC', 'aA', 'aB', 'Bc', 'bc', 'bC']}
+Word: aaabcaaBCbC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'BC'], 2.0: ['AC', 'aA', 'ab', 'Bc', 'BC', 'bc'], 3.0: ['aA', 'aA']}
+Word: aabcBCBcbAC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'BC']}
+Word: aaabcBcbcBC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc'], 2.0: ['aA', 'aA']}
+Word: aaabcbCbcBc, List of cycles: {8.0: ['Ac', 'aA', 'aB', 'Bc'], 2.0: ['Ac', 'aA', 'aB', 'bC', 'BC', 'bc'], 6.0: ['Ac', 'aA', 'aB', 'bc', 'BC', 'bC'], 13.0: ['aA', 'aA'], 1.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC'], 4.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC']}
+Word: aabcBCbCbAC, List of cycles: {1.0: ['AC', 'aA', 'bc', 'Bc', 'BC', 'ab']}
+Word: aaabbcaaccb, List of cycles: {1.0: ['Ab', 'aA', 'aB', 'bC', 'cC', 'Bc']}
+Word: aaabcBcbCBc, List of cycles: {2.0: ['Ac', 'aA', 'aB', 'bc', 'BC', 'bC'], 3.0: ['aA', 'aA'], 1.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aabacbbcacc, List of cycles: {1.0: ['Ac', 'aA', 'aC', 'cC']}
+Word: aabcBcbCbAC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc']}
+Word: aaabbaccbcc, List of cycles: {2.0: ['Ac', 'aA', 'aB', 'bB', 'cC', 'bC'], 1.0: ['Ac', 'aA', 'aC', 'cC'], 4.0: ['aA', 'aA'], 3.0: ['Ac', 'Ab', 'bC', 'cC']}
+Word: aababaccbbc, List of cycles: {1.0: ['Ac', 'aA', 'aC', 'cC'], 2.0: ['Ac', 'aB', 'Ab', 'aC', 'Bc', 'bC']}
+Word: aabcbCaBcbc, List of cycles: {1.0: ['Ac', 'aA', 'ab', 'BC', 'Bc', 'bC']}
+Word: aaabbbacccb, List of cycles: {9.0: ['cC', 'cC'], 6.0: ['Ab', 'Ab'], 1.0: ['aB', 'aC', 'cC', 'Bc'], 5.0: ['aB', 'aC', 'cC', 'Bc'], 4.0: ['Ab', 'aA', 'bB', 'aC', 'cC', 'Bc'], 2.0: ['Ab', 'aA', 'aB', 'bB']}
+Word: aaabaccbbbc, List of cycles: {4.0: ['aA', 'aA'], 1.0: ['Ac', 'aA', 'aB', 'Bc'], 2.0: ['Ac', 'aA', 'aB', 'cC', 'bB', 'bC']}
+Word: aabcBcaBcbC, List of cycles: {2.0: ['bC', 'bc', 'BC', 'Bc'], 1.0: ['AC', 'aA', 'aB', 'BC']}
+Word: aaabcBCbcBC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'bc', 'Bc']}
+Word: aaabcBcBCbc, List of cycles: {10.0: ['bC', 'bC'], 4.0: ['Ac', 'aA', 'aB', 'bC', 'BC', 'bc'], 6.0: ['Ac', 'aA', 'aB', 'Bc'], 13.0: ['aA', 'aA'], 2.0: ['Ac', 'aA', 'aB', 'bc', 'BC', 'bC'], 7.0: ['Ac', 'aA', 'aB', 'bc', 'BC', 'bC'], 1.0: ['Ac', 'aA', 'aB', 'bc', 'BC', 'bC']}
+Word: aabacabccbb, List of cycles: {1.0: ['Ab', 'Ab'], 2.0: ['Ab', 'aA', 'aB', 'bC', 'cC', 'Bc']}
+Word: aaabaaccbbc, List of cycles: {1.0: ['Ac', 'aA', 'aC', 'Bc', 'bB', 'bC']}
+Word: aabcaBcBCbC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'BC']}
+Word: aabcbAcbcBc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC']}
+Word: aaabcbCbAAC, List of cycles: {1.0: ['AC', 'aA', 'Bc', 'bc', 'BC', 'ab']}
+Word: aabcbCaBCBc, List of cycles: {1.0: ['Ac', 'aA', 'bc', 'ab']}
+Word: aaabbcaccbb, List of cycles: {1.0: ['Ab', 'aA', 'aC', 'cC', 'Bc', 'bB']}
+Word: aaaabbbaccc, List of cycles: {1.0: ['Ac', 'aA', 'aC', 'cC']}
+Word: aabcbCBCbAC, List of cycles: {2.0: ['aB', 'bC', 'BC', 'ab'], 1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc']}
+Word: aaabaacbbcc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'bB', 'bC', 'cC']}
+Word: aaabcBcbCbc, List of cycles: {6.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC'], 10.0: ['bC', 'bC'], 4.0: ['Ac', 'aA', 'aB', 'Bc'], 2.0: ['bC', 'bc', 'BC', 'Bc'], 13.0: ['aA', 'aA'], 1.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC'], 3.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC']}
+Word: aaaabcaBcbC, List of cycles: {1.0: ['AC', 'aA', 'ab', 'BC', 'Bc', 'bc']}
+Word: aaabbbaccbc, List of cycles: {3.0: ['Ac', 'aA', 'aC', 'cC'], 4.0: ['aA', 'aA'], 1.0: ['Ac', 'aA', 'aB', 'Bc'], 2.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aabcbACbcbC, List of cycles: {2.0: ['AC', 'aB', 'ab', 'Ac', 'BC', 'bc'], 1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc']}
+Word: aaabacccbbc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'cC', 'bB', 'bC']}
+Word: aabacacbbcc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'bB', 'bC', 'cC'], 2.0: ['aC', 'aC']}
+Word: aabcaBcbcBC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc']}
+Word: aaaabbbcccb, List of cycles: {1.0: ['bB', 'bC', 'cC', 'Bc'], 2.0: ['Ab', 'aA', 'aB', 'bB']}
+Word: aabcbcaBCbC, List of cycles: {2.0: ['Bc', 'bC', 'BC', 'bc'], 1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc']}
+Word: aabaaccbbcc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aababcaccbb, List of cycles: {1.0: ['Ab', 'aB', 'Ac', 'aC', 'cC', 'bB']}
+Word: aaabbaacbcc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'bB', 'bC', 'cC']}
+Word: aabcbAcBcbc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aabcbcBCbAC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'Bc', 'bC', 'bc']}
+Word: aabacbbccbc, List of cycles: {2.0: ['Ac', 'aA', 'aC', 'cC'], 1.0: ['Ac', 'aA', 'aC', 'Bc', 'bB', 'bC']}
+Word: aaabcbCBcBC, List of cycles: {2.0: ['bC', 'Bc', 'BC', 'bc'], 1.0: ['AC', 'aA', 'aB', 'bc', 'bC', 'Bc']}
+Word: aaaabcBCbAc, List of cycles: {1.0: ['Ac', 'aA', 'bC', 'Bc', 'BC', 'ab']}
+Word: aabcbCaBCbc, List of cycles: {1.0: ['Ac', 'aA', 'ab', 'Bc', 'BC', 'bC']}
+Word: aaabacccbbb, List of cycles: {21.0: ['Ab', 'Ab'], 33.0: ['cC', 'cC'], 14.0: ['aB', 'aC', 'cC', 'Bc'], 7.0: ['Ab', 'aA', 'aC', 'cC', 'Bc', 'bB'], 5.0: ['aA', 'Ab', 'aC', 'cC', 'Bc', 'bB'], 1.0: ['aA', 'Ab', 'aC', 'cC', 'Bc', 'bB'], 6.0: ['Ab', 'aA', 'aB', 'bB'], 2.0: ['Ab', 'aA', 'aC', 'cC', 'Bc', 'bB'], 3.0: ['Ab', 'aA', 'aB', 'bB'], 13.0: ['aA', 'aB', 'Ab', 'bB'], 8.0: ['Ab', 'aA', 'aC', 'cC', 'Bc', 'bB'], 11.0: ['Ab', 'aA', 'aB', 'bB']}
+Word: aaabbabcccb, List of cycles: {1.0: ['Ab', 'aA', 'aB', 'bC', 'cC', 'Bc'], 2.0: ['aA', 'aB', 'bB', 'Ab']}
+Word: aaabbccaccb, List of cycles: {1.0: ['Ab', 'aA', 'bB', 'aC', 'cC', 'Bc']}
+Word: aaaabbacbcc, List of cycles: {1.0: ['Ac', 'aA', 'aC', 'cC']}
+Word: aaababbbccc, List of cycles: {2.0: ['cC', 'cC'], 1.0: ['Ac', 'aA', 'aB', 'bB', 'bC', 'cC']}
+Word: aabcBCaBCbc, List of cycles: {1.0: ['Ac', 'aA', 'bc', 'ab']}
+Word: aabacbbabcc, List of cycles: {1.0: ['Ac', 'aA', 'Bc', 'aB'], 2.0: ['aB', 'aB']}
+Word: aaabccbbccb, List of cycles: {1.0: ['Ab', 'aA', 'aB', 'bC', 'cC', 'Bc']}
+Word: aabcbcaBcBC, List of cycles: {1.0: ['AC', 'aA', 'ab', 'BC', 'bc', 'Bc']}
+Word: aabacbbccab, List of cycles: {1.0: ['Ab', 'aA', 'aB', 'bB']}
+Word: aaaabbccccb, List of cycles: {1.0: ['Ab', 'aA', 'aB', 'bB'], 2.0: ['aA', 'aA']}
+Word: aabcabbaccb, List of cycles: {1.0: ['Ab', 'aA', 'aB', 'bB']}
+Word: aaabbbacbcc, List of cycles: {2.0: ['Ac', 'aA', 'aC', 'cC'], 1.0: ['Ac', 'aA', 'aB', 'bB', 'bC', 'cC'], 4.0: ['bB', 'bB'], 3.0: ['Ac', 'bB', 'Ab', 'Bc'], 5.0: ['aA', 'aA']}
+Word: aaabcbCBcbC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'bc', 'Bc']}
+Word: aabcaBcBcbC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc']}
+Word: aaabcbCbCbc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'bc', 'BC', 'bC']}
+Word: aaabcBcbcbC, List of cycles: {6.0: ['bC', 'bC'], 2.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc'], 4.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc'], 9.0: ['aA', 'aA'], 1.0: ['AC', 'aA', 'aB', 'Bc', 'bC', 'bc']}
+Word: aabcbcbCbAC, List of cycles: {1.0: ['AC', 'aA', 'bC', 'ab']}
+Word: aaaabacbbcc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'Bc'], 2.0: ['aA', 'aA']}
+Word: aababccacbb, List of cycles: {1.0: ['Ab', 'aB', 'cC', 'Ac', 'aC', 'bB']}
+Word: aaabbacbbcc, List of cycles: {1.0: ['Ac', 'aA', 'aC', 'Bc', 'bB', 'bC']}
+Word: aabcbcbAcBc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'Bc'], 2.0: ['Bc', 'bC', 'bc', 'BC']}
+Word: aabacabbccb, List of cycles: {1.0: ['Ab', 'aA', 'aB', 'bC', 'cC', 'Bc'], 2.0: ['Ab', 'aA', 'aB', 'bB']}
+Word: aaaabcBCbAC, List of cycles: {1.0: ['AC', 'aA', 'bC', 'ab']}
+Word: aaabcBcbAAc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aabcaBcbCBC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'BC']}
+Word: aaabaccbbcc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'cC', 'bB', 'bC'], 2.0: ['Ac', 'Ab', 'cC', 'bC']}
+Word: aabcaBCbcBC, List of cycles: {2.0: ['bC', 'bC'], 1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc']}
+Word: aabcbcBcbAc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aaaabcbCbAC, List of cycles: {1.0: ['AC', 'aA', 'bC', 'ab']}
+Word: aaabbccbbcc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'bB', 'bC', 'cC']}
+Word: aaabcBcbAAC, List of cycles: {1.0: ['AC', 'aA', 'bc', 'BC', 'Bc', 'ab']}
+Word: aababbcbacc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aabcBCBCbAc, List of cycles: {1.0: ['Ac', 'aB', 'Bc', 'bC', 'ab', 'AC'], 2.0: ['Ac', 'aA', 'aB', 'Bc']}
+Word: aabcbCbCbAc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'bC', 'bc', 'BC']}
+Word: aaaabcaBCbC, List of cycles: {1.0: ['AC', 'aA', 'ab', 'Bc', 'BC', 'bc']}
+Word: aabcbCbcbAc, List of cycles: {4.0: ['bc', 'BC', 'bC', 'Bc'], 2.0: ['Ac', 'aA', 'aB', 'Bc'], 3.0: ['bC', 'Bc', 'bc', 'BC'], 1.0: ['Ac', 'aA', 'bC', 'Bc', 'BC', 'ab']}
+Word: aabcBCBCbAC, List of cycles: {1.0: ['AC', 'aA', 'bC', 'ab']}
+Word: aaabcBCbAAc, List of cycles: {1.0: ['Ac', 'aA', 'bc', 'ab']}
+Word: aabcbcaBcbC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc']}
+Word: aabcaBCbcbC, List of cycles: {1.0: ['AC', 'aA', 'aB', 'BC']}
+Word: aabaccbabbc, List of cycles: {1.0: ['Ac', 'aA', 'aC', 'Bc', 'bB', 'bC'], 2.0: ['Ac', 'cC', 'Ab', 'bC'], 3.0: ['Ac', 'aA', 'aB', 'Bc'], 5.0: ['Ab', 'Ab']}
+Word: aaaabcbCbAc, List of cycles: {1.0: ['Ac', 'aA', 'aB', 'Bc'], 2.0: ['Ac', 'bC', 'bc', 'AC'], 3.0: ['Ac', 'aA', 'bC', 'Bc', 'BC', 'ab'], 4.0: ['aA', 'aA']}
+Word: aabcaBcbCbC, List of cycles: {2.0: ['AC', 'aA', 'ab', 'BC', 'Bc', 'bc'], 3.0: ['BC', 'BC'], 1.0: ['AC', 'aA', 'aB', 'bC', 'Bc', 'bc']}
+Word: aaabacbbbcc, List of cycles: {2.0: ['aA', 'aA'], 1.0: ['Ac', 'aA', 'aB', 'Bc']}
