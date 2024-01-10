@@ -157,3 +157,11 @@ def get_reduced_set_of_good_word(length: int) -> set:
                         # All conditions added
     return res
 
+# with open('reduced_list_of_length_12_words.txt', 'r') as f:
+#     lines = f.readlines()
+#     res = []
+#     for l in lines:
+#         w_l = l.split(", ")
+#         res.append(w_l[0].removeprefix("Word: "))
+# print(res)
+# print(len(res))

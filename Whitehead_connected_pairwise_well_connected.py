@@ -4,9 +4,7 @@ import math
 from gurobipy import GRB
 import numpy as np
 import itertools
-# import igraph
 import networkx
-# import networkx.algorithms.isomorphism as iso
 def stars_and_bars(stars: int, bars: int) -> list:
     """
     Euler division with "stars" candies and "bars" children.

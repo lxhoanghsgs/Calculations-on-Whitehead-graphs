@@ -1,0 +1,208 @@
+abacbAcccccB, {('cC', 'cC'): 1, ('aC', 'ab', 'cC', 'bc'): 1, ('aB', 'Ab', 'Bc', 'ab', 'AC', 'cC'): 1, ('AB', 'Bc', 'AC', 'cC'): 1, ('AB', 'aC', 'Bc', 'ab', 'AC', 'bc'): 1, ('AB', 'aB', 'Ab', 'aC', 'cC', 'bc'): 1}
+abaaCCbbaabC, {('bB', 'Ab', 'aA', 'aB'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('Ab', 'aA', 'ac', 'cC', 'BC', 'bB'): 1, ('aB', 'aB'): 1, ('AC', 'cC', 'Ab', 'bc'): 1, ('AC', 'aB', 'BC', 'aA'): 1}
+abaaaCCbabbC, {('Ab', 'aA', 'cC', 'BC', 'aB', 'bc'): 1, ('aB', 'aA', 'Ab', 'bB'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'Ab', 'ac', 'BC', 'aB', 'bc'): 1}
+abaabbaaCCbC, {('aB', 'ac', 'cC', 'BC'): 1, ('aA', 'aA'): 1, ('Ab', 'Ab'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'bB', 'aA'): 1, ('AC', 'Ab', 'cC', 'bc'): 1, ('AC', 'aA', 'bB', 'ac', 'BC', 'bc'): 1}
+abaaCbbbbbCC, {('bB', 'bB'): 2, ('Ab', 'aA', 'ac', 'BC', 'bB', 'cC'): 1, ('aB', 'ac', 'bB', 'bc'): 1, ('AC', 'Ab', 'BC', 'bB'): 1, ('AC', 'aB', 'aA', 'bB', 'bc', 'cC'): 1}
+abaaaaCCbbbC, {('bB', 'bB'): 1, ('cC', 'BC', 'bB', 'bc'): 1, ('aA', 'aA'): 2, ('aB', 'ac', 'bB', 'bc'): 2, ('aB', 'Ab', 'aA', 'bB'): 1, ('aB', 'Ab', 'aA', 'cC', 'BC', 'bc'): 1, ('AC', 'aA', 'ac', 'cC'): 2, ('AC', 'Ab', 'BC', 'bB'): 1}
+abaaCbbCbCCC, {('BC', 'bB', 'bc', 'cC'): 1, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'Ab', 'ac', 'BC', 'bc'): 1}
+abaaCbbCCCaC, {('BC', 'bB', 'bc', 'cC'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'BC', 'cC', 'ac'): 1, ('aB', 'Ab', 'ac', 'bB', 'cC', 'AC'): 1, ('AC', 'AC'): 1, ('AC', 'aA', 'cC', 'ac'): 1}
+abaabbCCbaaC, {('bc', 'Ab', 'aA', 'ac'): 1, ('Ab', 'aA', 'aB', 'bc', 'cC', 'BC'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'bB', 'aA'): 1, ('AC', 'bB', 'BC', 'Ab'): 1, ('AC', 'aA', 'cC', 'ac'): 1}
+abCCCacccbAB, {('cC', 'cC'): 1, ('AC', 'aC', 'ab', 'Ab'): 2, ('aB', 'aC', 'cC', 'Bc'): 1, ('AB', 'bc', 'Bc', 'Ab'): 2, ('AB', 'aB', 'bc', 'cC', 'AC', 'ab'): 1}
+abbbaaaCCCCC, {('cC', 'cC'): 1, ('bB', 'bB'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1}
+abaaCaCCCbbC, {('cC', 'BC', 'bB', 'bc'): 1, ('ac', 'ac'): 1, ('Ab', 'AC', 'cC', 'bc'): 1, ('aB', 'aA', 'AC', 'BC'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'Ab', 'ac', 'cC', 'bB'): 1}
+abaaCCbbCbCC, {('BC', 'BC'): 1, ('cC', 'BC', 'bB', 'bc'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'ac', 'cC', 'BC'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'aB', 'aA', 'bB', 'bc', 'cC'): 1}
+abCCaaCbbaCC, {('AC', 'BC', 'bB', 'Ab'): 1, ('bc', 'cC', 'AC', 'Ab'): 1, ('aB', 'cC', 'ac', 'BC'): 1, ('aB', 'bc', 'ac', 'bB'): 1, ('AC', 'aA', 'ac', 'cC'): 2}
+abaaaabbbCCC, {('cC', 'cC'): 2, ('bB', 'bB'): 1, ('aA', 'aA'): 1, ('Ab', 'aA', 'aB', 'bB'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'aA', 'aB', 'bB', 'bc', 'cC'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'aB', 'aA', 'bB', 'bc', 'cC'): 1}
+aabbbaaaaCCC, {('cC', 'cC'): 1, ('aA', 'aA'): 1, ('bB', 'bB'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abbCCaaaCbbb, {('bB', 'bB'): 2, ('aA', 'aA'): 2, ('bc', 'cC', 'BC', 'bB'): 1, ('aB', 'AC', 'aA', 'BC'): 2, ('aB', 'bc', 'ac', 'bB'): 1, ('aB', 'bc', 'cC', 'AC', 'aA', 'bB'): 1, ('Ab', 'AC', 'BC', 'bB'): 1, ('Ab', 'bc', 'aA', 'ac'): 1, ('Ab', 'bB', 'cC', 'aA', 'ac', 'BC'): 1, ('Ab', 'aB', 'cC', 'AC', 'ac', 'bB'): 1}
+abaabbbCCbaC, {('aB', 'cC', 'BC', 'ac'): 2, ('Ab', 'aA', 'aB', 'bB'): 2, ('aB', 'bB', 'bc', 'ac'): 2, ('aB', 'aA', 'bB', 'Ab'): 1, ('AC', 'bc', 'cC', 'Ab'): 1, ('AC', 'bB', 'BC', 'Ab'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'Ab', 'bB', 'BC'): 1}
+aaabbbbCCCCC, {('cC', 'cC'): 1, ('bB', 'bB'): 1, ('aA', 'aA'): 1, ('AC', 'aA', 'aB', 'bB', 'bc', 'cC'): 1}
+abaaabbaCbCC, {('aA', 'bB', 'Ab', 'ac', 'BC', 'cC'): 1, ('aA', 'aB', 'bB', 'Ab'): 2, ('Ab', 'aA', 'ac', 'bc'): 2, ('aB', 'aB'): 1, ('aB', 'aA', 'Ab', 'BC', 'bc', 'cC'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'Ab', 'aB', 'bB', 'ac', 'cC'): 1, ('AC', 'aB', 'aA', 'BC'): 1}
+abaaCCCbbCCC, {('BC', 'bB', 'bc', 'cC'): 1, ('cC', 'cC'): 2, ('cC', 'BC', 'bB', 'bc'): 1, ('Ab', 'aA', 'ac', 'bc'): 2, ('AC', 'aB', 'aA', 'BC'): 2, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1, ('AC', 'aB', 'Ab', 'ac', 'cC', 'bB'): 1}
+abaCbbCCaaCC, {('Ab', 'bc', 'cC', 'AC'): 1, ('aB', 'BC', 'cC', 'ac'): 1, ('aB', 'Ab', 'bB', 'AC', 'ac', 'cC'): 1, ('AC', 'ac', 'aA', 'cC'): 1, ('AC', 'ac', 'BC', 'bB', 'bc', 'aA'): 1}
+abaaCCbbCbbC, {('cC', 'BC', 'bB', 'bc'): 2, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'aA', 'ac', 'BC', 'bB', 'bc'): 1, ('AC', 'aB', 'Ab', 'ac', 'BC', 'bc'): 1}
+aabbaaabbCCC, {('cC', 'cC'): 1, ('aA', 'aA'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('aA', 'aB', 'bB', 'Ab'): 1, ('AC', 'aA', 'aB', 'bB', 'bc', 'cC'): 1}
+ababaaCbbbCC, {('bB', 'bB'): 1, ('Ab', 'aA', 'ac', 'BC', 'bB', 'cC'): 1, ('Ab', 'Ab'): 1, ('aB', 'ac', 'bB', 'bc'): 1, ('aB', 'aB'): 1, ('AC', 'aB', 'aA', 'BC'): 1, ('AC', 'Ab', 'bc', 'cC'): 1}
+abaaCbbCCbCC, {('BC', 'bB', 'bc', 'cC'): 1, ('aB', 'ac', 'BC', 'cC'): 1, ('aB', 'Ab', 'aA', 'cC', 'BC', 'bc'): 1, ('AC', 'aA', 'ac', 'BC', 'bB', 'bc'): 1, ('AC', 'Ab', 'bc', 'cC'): 1}
+abbaaabbbCCC, {('cC', 'cC'): 2, ('bB', 'bB'): 1, ('aA', 'aA'): 1, ('Ab', 'aA', 'aB', 'bB'): 1, ('aB', 'aB'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'aB', 'bB', 'bc', 'cC'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'aB', 'aA', 'bB', 'bc', 'cC'): 1}
+abaaCCbbbbCC, {('bB', 'bB'): 1, ('cC', 'cC'): 2, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'ac', 'bB', 'bc'): 1, ('AC', 'Ab', 'BC', 'bB'): 1, ('AC', 'aB', 'aA', 'BC'): 1}
+abaaaCbbCaCC, {('ac', 'ac'): 1, ('aA', 'ac', 'AC', 'cC'): 1, ('aA', 'aA'): 1, ('Ab', 'BC', 'bB', 'AC'): 1, ('Ab', 'aA', 'bc', 'ac'): 1, ('aB', 'BC', 'ac', 'cC'): 1, ('aB', 'aA', 'bB', 'bc', 'AC', 'cC'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'AC'): 1, ('AC', 'aA', 'BC', 'bB', 'bc', 'ac'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'Ab', 'ac', 'BC', 'bc'): 1}
+abaaCbbaabCC, {('bB', 'Ab', 'aA', 'aB'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('Ab', 'aA', 'ac', 'BC', 'bB', 'cC'): 1, ('aB', 'aB'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'aB', 'BC', 'aA'): 1}
+abbbbaaCCCCC, {('cC', 'cC'): 1, ('bB', 'bB'): 2, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abaabcaaccbb, {('Ac', 'aA', 'aC', 'cC'): 1, ('Ab', 'aA', 'aB', 'bB'): 2, ('Ab', 'aB', 'bC', 'aA', 'cC', 'Bc'): 1, ('Ab', 'aB', 'bC', 'Ac', 'aC', 'Bc'): 1}
+abbaaCbbbbCC, {('bB', 'bB'): 2, ('BC', 'bB', 'bc', 'cC'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'BC', 'bB', 'bc'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abaCbbaaabCC, {('ac', 'Ab', 'aA', 'bc'): 2, ('ac', 'BC', 'bB', 'Ab', 'aA', 'cC'): 1, ('Ab', 'bB', 'aA', 'aB'): 4, ('Ab', 'ac', 'aA', 'bc'): 1, ('aB', 'aB'): 1, ('aB', 'BC', 'Ab', 'aA', 'bc', 'cC'): 1, ('aB', 'ac', 'BC', 'cC'): 1, ('AC', 'Ab', 'bc', 'cC'): 2, ('AC', 'Ab', 'ac', 'bB', 'aB', 'cC'): 1, ('AC', 'aB', 'BC', 'aA'): 2}
+abbaaaabbCCC, {('cC', 'cC'): 1, ('aA', 'aA'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'aB', 'bB', 'bc', 'cC'): 1}
+abacbCCCCCaB, {('cC', 'cC'): 1, ('Ab', 'aC', 'AC', 'ab'): 1, ('aB', 'Bc', 'bc', 'ab'): 1, ('AB', 'Bc', 'cC', 'AC'): 1, ('AB', 'aB', 'Ab', 'aC', 'bc', 'cC'): 1}
+abaabbaCCbbC, {('bB', 'bB'): 2, ('aB', 'ac', 'cC', 'BC'): 1, ('aB', 'bB', 'ac', 'bc'): 1, ('aA', 'Ab', 'ac', 'bc'): 1, ('aA', 'aB', 'Ab', 'bB'): 1, ('aA', 'aB', 'Ab', 'cC', 'BC', 'bc'): 1, ('Ab', 'Ab'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'aA', 'bB'): 2, ('AC', 'bB', 'Ab', 'BC'): 1, ('AC', 'aB', 'Ab', 'ac', 'cC', 'bB'): 1, ('AC', 'Ab', 'cC', 'bc'): 2, ('AC', 'Ab', 'bB', 'BC'): 1, ('AC', 'aB', 'aA', 'BC'): 1}
+abaaCaaCbbCC, {('AC', 'aA', 'ac', 'cC'): 2, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'aA', 'ac', 'BC', 'bB', 'bc'): 1, ('AC', 'aB', 'Ab', 'ac', 'BC', 'bc'): 1}
+abaaabCbbaCC, {('aA', 'aB', 'bB', 'Ab'): 1, ('Ab', 'aA', 'bc', 'ac'): 1, ('aB', 'aB'): 1, ('aB', 'aA', 'bc', 'BC', 'Ab', 'cC'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'Ab', 'BC', 'bB'): 1}
+ababaaaCbbCC, {('aB', 'ac', 'BC', 'cC'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('Ab', 'aB', 'aA', 'bB'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'aB', 'aA', 'BC'): 1}
+abaabbbbaCCC, {('cC', 'cC'): 1, ('bB', 'bB'): 1, ('aB', 'aA', 'bB', 'Ab'): 1, ('AC', 'Ab', 'aB', 'bB', 'ac', 'cC'): 1}
+abbaabbaaCCC, {('cC', 'cC'): 1, ('bB', 'aB', 'Ab', 'aA'): 1, ('bB', 'aA', 'aB', 'Ab'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'Ab', 'bB', 'ac', 'cC'): 1}
+aabbbaaaCCCC, {('cC', 'cC'): 2, ('bB', 'bB'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('aA', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abaaCCbaabbC, {('cC', 'BC', 'Ab', 'aA', 'aB', 'bc'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'aB'): 1, ('aB', 'aA', 'Ab', 'bB'): 1, ('AC', 'ac', 'cC', 'aA'): 1, ('AC', 'Ab', 'BC', 'bB'): 1}
+abaaCbbCCbbC, {('cC', 'BC', 'bB', 'bc'): 1, ('BC', 'bB', 'bc', 'cC'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'ac', 'bc', 'bB'): 1, ('AC', 'Ab', 'bB', 'BC'): 1, ('AC', 'aB', 'aA', 'BC'): 1}
+abaBccaCCCCB, {('cC', 'cC'): 2, ('Ab', 'Ac', 'cC', 'bC'): 1, ('aB', 'BC', 'ac', 'cC'): 1, ('AB', 'Ab', 'ab', 'BC', 'ac', 'cC'): 1, ('AB', 'aB', 'ab', 'Ac', 'cC', 'bC'): 1}
+abaaCCCbbbCC, {('bB', 'bB'): 2, ('BC', 'bB', 'bc', 'cC'): 1, ('cC', 'BC', 'bB', 'bc'): 2, ('cC', 'cC'): 3, ('aB', 'ac', 'BC', 'cC'): 2, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'aA', 'ac', 'cC'): 3, ('AC', 'Ab', 'bc', 'cC'): 2, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1}
+abbbaaaaaCCC, {('cC', 'cC'): 1, ('aA', 'aA'): 1, ('bB', 'bB'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1}
+abaccccbCCaB, {('cC', 'cC'): 2, ('Ab', 'bc', 'cC', 'AC'): 1, ('aB', 'aC', 'cC', 'Bc'): 1, ('AB', 'Ab', 'aC', 'cC', 'Bc', 'ab'): 1, ('AB', 'aB', 'bc', 'cC', 'AC', 'ab'): 1}
+abaBcccccACB, {('cC', 'cC'): 1, ('Ab', 'ab', 'ac', 'Ac'): 1, ('aB', 'ab', 'BC', 'bC'): 1, ('AB', 'BC', 'cC', 'Ac'): 1, ('AB', 'aB', 'Ab', 'cC', 'ac', 'bC'): 1}
+ababbaaCbbCC, {('BC', 'bB', 'bc', 'cC'): 1, ('aB', 'bB', 'ac', 'bc'): 1, ('Ab', 'Ab'): 1, ('Ab', 'aB', 'aA', 'bB'): 1, ('AC', 'aB', 'aA', 'BC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abaaaCCbbCCC, {('cC', 'cC'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aA', 'ac', 'BC', 'bB', 'bc'): 1}
+ababaaaCCbbC, {('aB', 'Ab', 'aA', 'bB'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'ac', 'cC', 'BC'): 1, ('AC', 'Ab', 'cC', 'bc'): 1, ('AC', 'aB', 'aA', 'BC'): 1}
+abCaaCbbaaCC, {('AC', 'aA', 'ac', 'cC'): 2, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'bc', 'BC', 'bB', 'aA', 'ac'): 1, ('AC', 'aB', 'bc', 'BC', 'Ab', 'ac'): 1}
+abaacaabccbb, {('aA', 'aC', 'Ac', 'cC'): 1, ('Ab', 'aC', 'aA', 'bC'): 1, ('Ab', 'aA', 'aB', 'bB'): 1, ('aB', 'aB'): 1, ('Ab', 'Ac', 'Bc', 'bB'): 1, ('Ab', 'aB', 'aA', 'bC', 'cC', 'Bc'): 1}
+abbabbbaaCCC, {('cC', 'cC'): 1, ('bB', 'bB'): 1, ('aB', 'bB', 'Ab', 'aA'): 2, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abbaaCCbCCCC, {('cC', 'cC'): 1, ('bB', 'Ab', 'aA', 'ac', 'cC', 'BC'): 1, ('aB', 'ac', 'cC', 'BC'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'aB', 'bB', 'aA', 'bc', 'cC'): 1}
+abaaCCbbbbbC, {('bB', 'bB'): 2, ('Ab', 'aA', 'ac', 'cC', 'BC', 'bB'): 1, ('aB', 'ac', 'bB', 'bc'): 1, ('AC', 'Ab', 'BC', 'bB'): 1, ('AC', 'aB', 'aA', 'cC', 'bB', 'bc'): 1}
+abbabbaaaCCC, {('cC', 'cC'): 1, ('bB', 'Ab', 'aB', 'aA'): 1, ('aB', 'Ab', 'bB', 'aA'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abaaCCbCbbCC, {('bc', 'bc'): 1, ('BC', 'BC'): 1, ('Ab', 'aA', 'ac', 'cC', 'BC', 'bB'): 1, ('aB', 'ac', 'BC', 'cC'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'aB', 'aA', 'cC', 'bc', 'bB'): 1}
+abaaCCbbbCbC, {('bc', 'bc'): 1, ('cC', 'BC', 'bB', 'bc'): 1, ('Ab', 'aA', 'ac', 'cC', 'bB', 'BC'): 1, ('aB', 'ac', 'bB', 'bc'): 1, ('AC', 'Ab', 'bB', 'BC'): 1, ('AC', 'aB', 'aA', 'BC'): 1}
+abCCbbaaCCCC, {('cC', 'cC'): 1, ('bc', 'cC', 'BC', 'bB'): 1, ('aB', 'bc', 'cC', 'BC', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abbaaaCCCbCC, {('cC', 'cC'): 1, ('bB', 'BC', 'bc', 'cC'): 1, ('aB', 'Ab', 'aA', 'cC', 'BC', 'bc'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1}
+abbaaCCCbbCC, {('cC', 'cC'): 1, ('bB', 'BC', 'bc', 'cC'): 1, ('bB', 'cC', 'BC', 'bc'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1}
+abbaaCCbbCCC, {('cC', 'cC'): 1, ('bB', 'BC', 'bc', 'cC'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'BC', 'bB', 'bc'): 1, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1}
+abaaaCbabbCC, {('Ab', 'aA', 'BC', 'aB', 'bc', 'cC'): 1, ('aB', 'aA', 'Ab', 'bB'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'Ab', 'ac', 'BC', 'aB', 'bc'): 1}
+abaBcccaCCCB, {('cC', 'cC'): 1, ('Ab', 'Ac', 'cC', 'bC'): 1, ('aB', 'BC', 'ac', 'cC'): 1, ('AB', 'Ab', 'ab', 'BC', 'cC', 'ac'): 1, ('AB', 'aB', 'ab', 'cC', 'Ac', 'bC'): 1}
+abbbaaaabCCC, {('cC', 'cC'): 2, ('aA', 'aA'): 1, ('bB', 'Ab', 'aA', 'aB'): 1, ('bB', 'bB'): 1, ('aB', 'aB'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'bB', 'aA', 'aB', 'bc', 'cC'): 1, ('AC', 'aB', 'bB', 'aA', 'bc', 'cC'): 1}
+abaaaCaCbbCC, {('ac', 'ac'): 2, ('aA', 'AC', 'ac', 'cC'): 4, ('Ab', 'AC', 'bc', 'cC'): 2, ('aB', 'Ab', 'ac', 'AC', 'BC', 'bc'): 2, ('aB', 'Ab', 'aA', 'bB'): 5, ('AC', 'aA', 'ac', 'cC'): 2, ('AC', 'aA', 'ac', 'BC', 'bB', 'bc'): 5, ('AC', 'aB', 'aA', 'BC'): 1, ('AC', 'aB', 'Ab', 'ac', 'BC', 'bc'): 1}
+abaabCCbbbaC, {('aB', 'bc', 'bB', 'ac'): 1, ('aA', 'aB', 'bB', 'Ab'): 1, ('aB', 'cC', 'BC', 'ac'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'bc', 'cC', 'Ab'): 1, ('AC', 'Ab', 'BC', 'bB'): 1}
+abbbaaaaCCCC, {('cC', 'cC'): 2, ('aA', 'aA'): 1, ('bB', 'bB'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1}
+abbbaaabbCCC, {('cC', 'cC'): 1, ('bB', 'bB'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'aB', 'bB', 'bc', 'cC'): 1}
+abaccbAbCCCC, {('cC', 'cC'): 1, ('aC', 'ab', 'bc', 'cC'): 1, ('Ab', 'Bc', 'AB', 'bc'): 1, ('AC', 'aB', 'aC', 'AB'): 1, ('AC', 'aB', 'Ab', 'Bc', 'ab', 'cC'): 1}
+abbCCaaCCbbb, {('AC', 'aA', 'ac', 'cC'): 1, ('bc', 'cC', 'BC', 'bB'): 1, ('bB', 'bB'): 1, ('Ab', 'aB', 'cC', 'AC', 'ac', 'bB'): 1, ('Ab', 'aB', 'bc', 'cC', 'aA', 'BC'): 1}
+abaaabCCbbaC, {('aB', 'bc', 'bB', 'ac'): 1, ('aA', 'bc', 'Ab', 'ac'): 1, ('aA', 'aB', 'bc', 'cC', 'BC', 'Ab'): 1, ('aA', 'aA'): 1, ('Ab', 'Ab'): 1, ('Ab', 'aA', 'aB', 'bB'): 1, ('aB', 'aA', 'bc', 'cC', 'BC', 'Ab'): 3, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'Ab', 'aB', 'cC', 'bB', 'ac'): 4, ('AC', 'aB', 'aA', 'BC'): 4}
+abaaCCbbCCCC, {('cC', 'cC'): 1, ('BC', 'bB', 'bc', 'cC'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('AC', 'aB', 'aA', 'BC'): 1, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1}
+abaCbbaabbCC, {('ac', 'aB', 'bB', 'bc'): 1, ('Ab', 'bB', 'aA', 'aB'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('aB', 'ac', 'BC', 'cC'): 1, ('AC', 'BC', 'bB', 'Ab'): 1, ('AC', 'Ab', 'bc', 'cC'): 1}
+abaaCCCCbbbC, {('bB', 'bB'): 2, ('cC', 'BC', 'bB', 'bc'): 2, ('cC', 'cC'): 3, ('aB', 'ac', 'bB', 'bc'): 2, ('aB', 'ac', 'cC', 'BC'): 1, ('aB', 'Ab', 'aA', 'bB'): 2, ('AC', 'aA', 'ac', 'cC'): 2, ('AC', 'Ab', 'BC', 'bB'): 2, ('AC', 'Ab', 'cC', 'bc'): 2}
+abaaaaCbbCCC, {('BC', 'bB', 'bc', 'cC'): 1, ('aA', 'aA'): 1, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'aA', 'ac', 'cC'): 1}
+abbaaCCCCbCC, {('cC', 'cC'): 1, ('bB', 'Ab', 'aA', 'ac', 'cC', 'BC'): 1, ('aB', 'ac', 'cC', 'BC'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'aB', 'bB', 'aA', 'bc', 'cC'): 1}
+abaBccccACCB, {('cC', 'cC'): 2, ('Ab', 'Ac', 'cC', 'bC'): 1, ('aB', 'BC', 'cC', 'ac'): 1, ('AB', 'Ab', 'ab', 'BC', 'cC', 'ac'): 1, ('AB', 'aB', 'ab', 'Ac', 'cC', 'bC'): 1}
+abCCbbaaaCCC, {('cC', 'cC'): 1, ('aA', 'aA'): 1, ('bc', 'cC', 'BC', 'bB'): 1, ('aB', 'bc', 'cC', 'BC', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abaabbCCbbaC, {('bB', 'bB'): 1, ('Ab', 'aA', 'aB', 'bB'): 1, ('aB', 'cC', 'BC', 'ac'): 1, ('aB', 'aA', 'bB', 'Ab'): 1, ('AC', 'aB', 'bc', 'BC', 'Ab', 'ac'): 1, ('AC', 'Ab', 'bc', 'cC'): 1}
+abaCCaaCbbCC, {('ac', 'cC', 'AC', 'aA'): 1, ('aB', 'ac', 'BC', 'cC'): 1, ('aB', 'Ab', 'AC', 'ac', 'bB', 'cC'): 1, ('AC', 'aA', 'ac', 'BC', 'bB', 'bc'): 1, ('AC', 'Ab', 'cC', 'bc'): 1}
+abbaaaaCCbCC, {('aA', 'aA'): 1, ('bB', 'Ab', 'aA', 'ac', 'cC', 'BC'): 1, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'bB', 'aA', 'cC', 'bc'): 1}
+abaaCbCbbCCC, {('cC', 'cC'): 1, ('bc', 'bc'): 1, ('BC', 'bB', 'bc', 'cC'): 1, ('BC', 'BC'): 1, ('aB', 'ac', 'BC', 'cC'): 1, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 1, ('AC', 'aA', 'ac', 'BC', 'bB', 'bc'): 1, ('AC', 'aA', 'ac', 'bc', 'BC', 'bB'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1}
+abaaaCCbbabC, {('aA', 'ac', 'Ab', 'bc'): 1, ('aA', 'aA'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'aA', 'cC', 'BC', 'bc'): 1, ('AC', 'BC', 'bB', 'Ab'): 1, ('AC', 'Ab', 'ac', 'cC', 'bB', 'aB'): 1}
+abaaabbcccbb, {('cC', 'cC'): 3, ('bC', 'cC', 'Bc', 'bB'): 2, ('bB', 'bC', 'cC', 'Bc'): 1, ('aA', 'aA'): 1, ('Ab', 'aA', 'aB', 'bB'): 2, ('aB', 'aB'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('aB', 'Ab', 'aA', 'bC', 'cC', 'Bc'): 2, ('Ab', 'Ab'): 1, ('Ab', 'aB', 'aA', 'bB'): 1}
+abbbaaCCCCCC, {('cC', 'cC'): 1, ('bB', 'bB'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abbaaCCCbCCC, {('cC', 'cC'): 1, ('Ab', 'aA', 'ac', 'bc'): 2, ('bB', 'BC', 'bc', 'cC'): 1, ('bB', 'cC', 'BC', 'bc'): 1, ('AC', 'aB', 'aA', 'BC'): 2, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abaaaaCbbbCC, {('bB', 'bB'): 3, ('BC', 'bB', 'bc', 'cC'): 2, ('aA', 'aA'): 5, ('Ab', 'aA', 'ac', 'bc'): 3, ('Ab', 'aA', 'ac', 'BC', 'bB', 'cC'): 2, ('aB', 'ac', 'bB', 'bc'): 1, ('aB', 'Ab', 'aA', 'bB'): 2, ('AC', 'aA', 'ac', 'cC'): 2, ('AC', 'Ab', 'BC', 'bB'): 1, ('AC', 'aB', 'aA', 'BC'): 2, ('AC', 'aB', 'aA', 'bB', 'bc', 'cC'): 1}
+abaaCCCbCbbC, {('bc', 'bc'): 1, ('BC', 'BC'): 1, ('cC', 'BC', 'bc', 'bB'): 1, ('cC', 'cC'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'Ab', 'ac', 'BC', 'bc'): 1}
+abbaaacccbbb, {('bB', 'bB'): 1, ('cC', 'cC'): 1, ('aB', 'bB', 'Ab', 'aA'): 2, ('Ab', 'aA', 'aC', 'cC', 'Bc', 'bB'): 1}
+abaaCCbbCCaC, {('cC', 'BC', 'bB', 'bc'): 1, ('ac', 'ac'): 1, ('aA', 'cC', 'AC', 'ac'): 1, ('Ab', 'bc', 'cC', 'AC'): 1, ('aB', 'ac', 'cC', 'BC'): 1, ('aB', 'Ab', 'bB', 'cC', 'AC', 'ac'): 1, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 1, ('AC', 'AC'): 1, ('AC', 'aA', 'BC', 'bB', 'bc', 'ac'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'Ab', 'ac', 'cC', 'bB'): 1}
+abaCbbCaaaCC, {('aA', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('BC', 'bB', 'bc', 'AC', 'aA', 'ac'): 1, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1, ('AC', 'aB', 'Ab', 'ac', 'BC', 'bc'): 1}
+abbCCCbaaCCC, {('cC', 'cC'): 2, ('bc', 'Ab', 'aA', 'ac'): 1, ('aB', 'bB', 'bc', 'ac'): 1, ('AC', 'bB', 'BC', 'Ab'): 1, ('AC', 'aB', 'BC', 'aA'): 1}
+abbCCCaaabbb, {('bB', 'bB'): 1, ('cC', 'cC'): 1, ('aB', 'bB', 'bc', 'cC', 'AC', 'aA'): 1, ('Ab', 'aA', 'aB', 'bB'): 1}
+aabbaabbbCCC, {('cC', 'cC'): 1, ('bB', 'bB'): 1, ('aA', 'Ab', 'aB', 'bB'): 1, ('aA', 'bB', 'Ab', 'aB'): 1, ('AC', 'aB', 'aA', 'bB', 'bc', 'cC'): 1, ('AC', 'aB', 'bB', 'aA', 'bc', 'cC'): 1}
+abbaacccabbb, {('bB', 'bB'): 1, ('cC', 'cC'): 1, ('aB', 'bB', 'Ab', 'aC', 'cC', 'Ac'): 1, ('Ab', 'aA', 'aB', 'bB'): 1}
+aaabbbCCCCCC, {('cC', 'cC'): 2, ('bB', 'bB'): 1, ('aA', 'aA'): 1, ('AC', 'aA', 'aB', 'bB', 'bc', 'cC'): 1}
+abaaCCbCbbbC, {('bB', 'bB'): 1, ('BC', 'BC'): 1, ('cC', 'bc', 'BC', 'bB'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('AC', 'aB', 'aA', 'cC', 'bB', 'bc'): 1, ('AC', 'aB', 'Ab', 'ac', 'BC', 'bc'): 1}
+ababbaaCCbbC, {('cC', 'BC', 'bB', 'bc'): 1, ('aB', 'bB', 'ac', 'bc'): 1, ('Ab', 'Ab'): 1, ('Ab', 'aB', 'aA', 'bB'): 1, ('AC', 'aB', 'aA', 'BC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abCCCCCacbAB, {('cC', 'cC'): 2, ('bc', 'cC', 'aC', 'ab'): 1, ('aB', 'cC', 'AC', 'Bc', 'ab', 'Ab'): 1, ('AB', 'cC', 'AC', 'Bc'): 1, ('AB', 'aB', 'bc', 'cC', 'aC', 'Ab'): 1}
+abaaCaCCbbCC, {('Ab', 'AC', 'bc', 'cC'): 1, ('Ab', 'AC', 'BC', 'bB'): 1, ('aB', 'ac', 'bB', 'bc'): 1, ('aB', 'ac', 'cC', 'BC'): 1, ('AC', 'aA', 'ac', 'cC'): 1}
+abaabbCbaaCC, {('bc', 'Ab', 'aA', 'ac'): 1, ('Ab', 'aA', 'aB', 'bc', 'BC', 'cC'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'bB', 'aA'): 1, ('AC', 'bB', 'BC', 'Ab'): 1, ('AC', 'aA', 'ac', 'cC'): 1}
+abCCCCaccbAB, {('AC', 'aC', 'ab', 'Ab'): 1, ('cC', 'cC'): 1, ('aB', 'bc', 'Bc', 'ab'): 1, ('AB', 'cC', 'AC', 'Bc'): 1, ('AB', 'aB', 'bc', 'cC', 'aC', 'Ab'): 1}
+abaabbaaCbCC, {('Ab', 'aA', 'ac', 'bc'): 1, ('Ab', 'aA', 'aB', 'bB'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 1, ('AC', 'bB', 'Ab', 'BC'): 1, ('AC', 'aA', 'ac', 'cC'): 1}
+abaaaaaCCbbC, {('aA', 'aA'): 1, ('aB', 'Ab', 'aA', 'cC', 'BC', 'bc'): 1, ('AC', 'aA', 'ac', 'BC', 'bB', 'bc'): 1, ('AC', 'aB', 'Ab', 'ac', 'cC', 'bB'): 1}
+abaaaCbbCCaC, {('aA', 'BC', 'bB', 'bc', 'AC', 'ac'): 1, ('Ab', 'aA', 'bc', 'ac'): 2, ('AC', 'aA', 'ac', 'cC'): 2}
+abaaaCCCCbbC, {('cC', 'BC', 'bB', 'bc'): 1, ('cC', 'cC'): 1, ('aA', 'aA'): 1, ('aB', 'Ab', 'aA', 'cC', 'BC', 'bc'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'Ab', 'ac', 'cC', 'bB'): 1}
+abaCbbCaaCCC, {('AC', 'aA', 'ac', 'cC'): 1, ('BC', 'bB', 'bc', 'cC'): 1, ('ac', 'ac'): 1, ('aB', 'Ab', 'BC', 'bc', 'aA', 'cC'): 1, ('AC', 'AC'): 1, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1}
+abaaCCaCCbbC, {('cC', 'cC'): 1, ('ac', 'ac'): 1, ('aB', 'aA', 'AC', 'cC', 'bB', 'bc'): 1, ('aB', 'Ab', 'ac', 'AC', 'BC', 'bc'): 1, ('AC', 'aA', 'cC', 'ac'): 1, ('AC', 'Ab', 'BC', 'bB'): 1}
+abaaCaaCCbbC, {('AC', 'aA', 'ac', 'BC', 'bB', 'bc'): 1, ('ac', 'ac'): 1, ('aA', 'aA'): 1, ('Ab', 'AC', 'cC', 'bc'): 1, ('AC', 'aB', 'aA', 'BC'): 1, ('AC', 'aB', 'Ab', 'ac', 'cC', 'bB'): 1}
+abCacccccbAB, {('cC', 'cC'): 1, ('AC', 'aC', 'ab', 'Ab'): 1, ('aB', 'bc', 'Bc', 'ab'): 1, ('AB', 'AC', 'cC', 'Bc'): 1, ('AB', 'aB', 'bc', 'aC', 'cC', 'Ab'): 1}
+abaaabbCbaCC, {('aB', 'BC', 'ac', 'cC'): 1, ('Ab', 'aA', 'bc', 'ac'): 1, ('aB', 'aA', 'bB', 'Ab'): 1, ('AC', 'aA', 'aB', 'BC'): 1, ('AC', 'Ab', 'bc', 'cC'): 1}
+abaaCbbCbbCC, {('bc', 'bc'): 1, ('bB', 'bB'): 1, ('BC', 'BC'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'ac', 'BC', 'cC'): 1, ('AC', 'Ab', 'BC', 'bB'): 1, ('AC', 'aB', 'aA', 'bB', 'bc', 'cC'): 1}
+abaaCCCCCbbC, {('cC', 'BC', 'bB', 'bc'): 1, ('cC', 'cC'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('AC', 'aB', 'aA', 'BC'): 1, ('AC', 'aB', 'Ab', 'ac', 'cC', 'bB'): 1}
+abaaCCCbbbbC, {('bB', 'bB'): 1, ('cC', 'BC', 'bB', 'bc'): 1, ('cC', 'cC'): 2, ('Ab', 'aA', 'ac', 'bc'): 1, ('Ab', 'aA', 'ac', 'cC', 'BC', 'bB'): 2, ('aB', 'ac', 'bB', 'bc'): 1, ('aB', 'ac', 'cC', 'BC'): 1, ('AC', 'Ab', 'BC', 'bB'): 2, ('AC', 'aB', 'aA', 'cC', 'bB', 'bc'): 1, ('AC', 'aB', 'Ab', 'ac', 'cC', 'bB'): 1}
+abaaCbCbbbCC, {('BC', 'bB', 'bc', 'cC'): 1, ('BC', 'BC'): 1, ('BC', 'bc', 'bB', 'cC'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'ac', 'bB', 'bc'): 2, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 1, ('AC', 'aA', 'ac', 'bc', 'BC', 'bB'): 1, ('AC', 'Ab', 'BC', 'bB'): 2, ('AC', 'aB', 'aA', 'bc', 'bB', 'cC'): 1}
+abacccbAcccB, {('cC', 'cC'): 2, ('Ab', 'aC', 'ab', 'AC'): 1, ('aB', 'Bc', 'ab', 'bc'): 1, ('AB', 'Ab', 'Bc', 'bc'): 1, ('AB', 'aB', 'aC', 'AC'): 1}
+abCaBCCCCCAB, {('cC', 'cC'): 1, ('AC', 'ab', 'aC', 'Ab'): 1, ('aB', 'bc', 'ab', 'Bc'): 1, ('AB', 'AC', 'Bc', 'cC'): 1, ('AB', 'aB', 'bc', 'cC', 'aC', 'Ab'): 1}
+abaabbbaCbCC, {('aB', 'ac', 'BC', 'cC'): 1, ('Ab', 'aA', 'aB', 'bB'): 1, ('aB', 'bB', 'ac', 'bc'): 1, ('aB', 'aA', 'bB', 'Ab'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'Ab', 'bB', 'BC'): 1}
+abaCbbbaabCC, {('bB', 'Ab', 'aA', 'aB'): 1, ('bB', 'bB'): 1, ('BC', 'bB', 'bc', 'cC'): 1, ('Ab', 'Ab'): 1, ('Ab', 'ac', 'BC', 'bB', 'aA', 'cC'): 1, ('aB', 'aB'): 1, ('aB', 'ac', 'bB', 'bc'): 1, ('AC', 'ac', 'BC', 'Ab', 'aB', 'bc'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'aB', 'BC', 'aA'): 1, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1}
+abaaCbbbCbCC, {('bc', 'bc'): 1, ('bB', 'bc', 'BC', 'cC'): 1, ('bB', 'bB'): 1, ('BC', 'bB', 'bc', 'cC'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'ac', 'bB', 'bc'): 2, ('aB', 'ac', 'BC', 'cC'): 1, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 2, ('AC', 'aA', 'ac', 'bB', 'BC', 'bc'): 1, ('AC', 'aA', 'ac', 'BC', 'bB', 'bc'): 1, ('AC', 'Ab', 'bB', 'BC'): 3, ('AC', 'aB', 'aA', 'BC'): 1}
+abbaacccaabb, {('cC', 'cC'): 1, ('aA', 'aA'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('aB', 'bB', 'Ab', 'aC', 'cC', 'Ac'): 1, ('Ab', 'aC', 'cC', 'Ac', 'aB', 'bB'): 1, ('Ab', 'aA', 'aB', 'bB'): 1}
+abaaaCbbabCC, {('aA', 'ac', 'Ab', 'bc'): 1, ('aA', 'aA'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 1, ('AC', 'BC', 'bB', 'Ab'): 1, ('AC', 'Ab', 'ac', 'bB', 'aB', 'cC'): 1}
+abaabCbbaaCC, {('Ab', 'aA', 'aB', 'bB'): 2, ('aB', 'bc', 'BC', 'Ab', 'aA', 'cC'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'bc', 'BC', 'Ab', 'ac'): 1}
+abaaaCCbbCaC, {('ac', 'ac'): 1, ('aA', 'ac', 'cC', 'AC'): 1, ('aA', 'aA'): 1, ('Ab', 'cC', 'bc', 'AC'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'cC', 'BC', 'ac'): 1, ('aB', 'ac', 'bB', 'bc'): 1, ('aB', 'aA', 'BC', 'AC'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'AC'): 1, ('AC', 'aA', 'BC', 'bB', 'bc', 'ac'): 1, ('AC', 'aA', 'cC', 'ac'): 1, ('AC', 'Ab', 'BC', 'bB'): 1}
+abacbAbCCCCC, {('cC', 'cC'): 1, ('aC', 'ab', 'bc', 'cC'): 1, ('aB', 'Ab', 'aC', 'AB', 'bc', 'cC'): 1, ('AC', 'Bc', 'AB', 'cC'): 1, ('AC', 'aB', 'Ab', 'Bc', 'ab', 'cC'): 1}
+abaaaaCCbbCC, {('aA', 'aA'): 1, ('Ab', 'aA', 'ac', 'cC', 'BC', 'bB'): 1, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'aA', 'cC', 'bB', 'bc'): 1}
+abaCbaabbbCC, {('Ab', 'BC', 'aA', 'aB', 'bc', 'cC'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('aB', 'ac', 'bB', 'bc'): 1, ('AC', 'BC', 'Ab', 'bB'): 1, ('AC', 'Ab', 'ac', 'aB', 'bB', 'cC'): 1}
+abaaabcccbbb, {('bB', 'bB'): 1, ('cC', 'cC'): 2, ('bC', 'cC', 'Bc', 'bB'): 1, ('aA', 'aA'): 1, ('Ab', 'aA', 'aB', 'bB'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('aB', 'Ab', 'aA', 'bC', 'cC', 'Bc'): 1, ('Ab', 'aA', 'aB', 'bC', 'cC', 'Bc'): 1, ('Ab', 'Ab'): 1, ('Ab', 'aB', 'aA', 'bB'): 1}
+abaaaCCbbbbC, {('bB', 'bB'): 1, ('aA', 'aA'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'ac', 'cC', 'BC'): 1}
+abbaaaCCbCCC, {('cC', 'cC'): 1, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'bB', 'aA', 'ac', 'BC', 'bc'): 1}
+abbaabbbaCCC, {('cC', 'cC'): 1, ('Ab', 'Ab'): 1, ('bB', 'bB'): 1, ('aB', 'aB'): 1, ('aB', 'aA', 'bB', 'Ab'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'Ab', 'aB', 'bB', 'ac', 'cC'): 1}
+abaabbbaCCbC, {('aB', 'bB', 'ac', 'bc'): 1, ('aA', 'aB', 'Ab', 'cC', 'BC', 'bc'): 1, ('Ab', 'aA', 'aB', 'bB'): 2, ('aB', 'Ab', 'aA', 'cC', 'BC', 'bc'): 1, ('AC', 'bB', 'Ab', 'BC'): 1, ('AC', 'Ab', 'bB', 'BC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 2}
+abaccccbAccB, {('cC', 'cC'): 2, ('Ab', 'AC', 'cC', 'bc'): 1, ('aB', 'aC', 'cC', 'Bc'): 1, ('AB', 'Ab', 'aC', 'cC', 'Bc', 'ab'): 1, ('AB', 'aB', 'ab', 'AC', 'cC', 'bc'): 1}
+abaacbbccaab, {('Bc', 'Ac', 'aA', 'aB'): 2, ('Ab', 'aA', 'aC', 'bC'): 2, ('aB', 'Ab', 'bB', 'aA'): 1, ('aB', 'Ab', 'Bc', 'bC', 'cC', 'aA'): 1, ('Ab', 'aA', 'bB', 'aB'): 1, ('Ab', 'aA', 'Bc', 'bC', 'cC', 'aB'): 1, ('Ab', 'aB', 'aC', 'bB', 'cC', 'Ac'): 2}
+abaabbCbbaCC, {('bc', 'BC', 'bB', 'cC'): 1, ('aB', 'bB', 'bc', 'ac'): 1, ('Ab', 'Ab'): 1, ('aB', 'aB'): 1, ('aB', 'aA', 'bB', 'Ab'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'Ab', 'bB', 'BC'): 1}
+ababbbbaaCCC, {('cC', 'cC'): 2, ('bB', 'bB'): 1, ('Ab', 'Ab'): 1, ('Ab', 'aB', 'bB', 'aA'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'bB', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1, ('AC', 'Ab', 'aB', 'bB', 'ac', 'cC'): 1}
+abbaaabcccbb, {('cC', 'cC'): 1, ('bC', 'cC', 'Bc', 'bB'): 1, ('aB', 'bB', 'Ab', 'aA'): 2, ('Ab', 'aA', 'aB', 'bB'): 1, ('Ab', 'aA', 'aB', 'bC', 'cC', 'Bc'): 1}
+ababbbaaaCCC, {('cC', 'cC'): 2, ('aA', 'aA'): 1, ('bB', 'bB'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('Ab', 'Ab'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'bB', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'Ab', 'aB', 'bB', 'ac', 'cC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abaBcccACCCB, {('cC', 'cC'): 1, ('Ab', 'ab', 'ac', 'Ac'): 1, ('aB', 'BC', 'ac', 'cC'): 1, ('AB', 'Ab', 'BC', 'bC'): 1, ('AB', 'aB', 'ab', 'cC', 'Ac', 'bC'): 1}
+abaaaCaCCbbC, {('cC', 'BC', 'bB', 'bc'): 1, ('ac', 'ac'): 2, ('aA', 'ac', 'AC', 'BC', 'bB', 'bc'): 2, ('aA', 'aA'): 2, ('Ab', 'aA', 'ac', 'bc'): 2, ('aB', 'ac', 'bB', 'bc'): 1, ('aB', 'ac', 'cC', 'BC'): 1, ('aB', 'aA', 'AC', 'BC'): 2, ('aB', 'Ab', 'ac', 'AC', 'cC', 'bB'): 2, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'AC'): 2, ('AC', 'aA', 'ac', 'cC'): 2, ('AC', 'Ab', 'BC', 'bB'): 1, ('AC', 'Ab', 'cC', 'bc'): 1, ('AC', 'aB', 'aA', 'BC'): 1}
+abaaaaaCbbCC, {('aA', 'aA'): 1, ('aB', 'ac', 'bB', 'bc'): 1, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'Ab', 'BC', 'bB'): 1}
+abbaaabbaCCC, {('cC', 'cC'): 1, ('aA', 'aB', 'bB', 'Ab'): 1, ('Ab', 'Ab'): 1, ('bB', 'bB'): 1, ('aB', 'aB'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1}
+abaccbAccccB, {('cC', 'cC'): 1, ('Ab', 'AC', 'cC', 'bc'): 1, ('aB', 'aC', 'Bc', 'cC'): 1, ('AB', 'Ab', 'aC', 'Bc', 'ab', 'cC'): 1, ('AB', 'aB', 'cC', 'ab', 'AC', 'bc'): 1}
+abaaCbaabbCC, {('BC', 'Ab', 'aA', 'aB', 'bc', 'cC'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'aB'): 1, ('aB', 'aA', 'Ab', 'bB'): 1, ('AC', 'ac', 'aA', 'cC'): 1, ('AC', 'Ab', 'BC', 'bB'): 1}
+abaaabbbbCCC, {('cC', 'cC'): 2, ('bB', 'bB'): 1, ('aA', 'aA'): 1, ('Ab', 'aA', 'aB', 'bB'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'aA', 'aB', 'bB', 'bc', 'cC'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'aB', 'aA', 'bB', 'bc', 'cC'): 1}
+abCCCbbaaCCC, {('BC', 'bB', 'Ab', 'aA', 'ac', 'cC'): 1, ('cC', 'cC'): 2, ('cC', 'BC', 'bB', 'Ab', 'aA', 'ac'): 1, ('AC', 'aB', 'bc', 'bB', 'aA', 'cC'): 1, ('AC', 'aB', 'bc', 'BC', 'Ab', 'ac'): 2, ('AC', 'aB', 'bc', 'cC', 'bB', 'aA'): 1}
+abCCaBCCCCAB, {('cC', 'cC'): 1, ('AC', 'ab', 'aC', 'Ab'): 1, ('aB', 'bc', 'ab', 'Bc'): 1, ('AB', 'AC', 'Bc', 'cC'): 1, ('AB', 'aB', 'bc', 'cC', 'aC', 'Ab'): 1}
+abaaaCCaCbbC, {('ac', 'ac'): 1, ('aA', 'ac', 'cC', 'AC'): 1, ('aA', 'aA'): 1, ('aB', 'ac', 'bB', 'bc'): 1, ('aB', 'Ab', 'aA', 'cC', 'BC', 'bc'): 1, ('AC', 'AC'): 1, ('AC', 'Ab', 'BC', 'bB'): 1}
+abbCbbaaCCCC, {('cC', 'cC'): 1, ('BC', 'bB', 'Ab', 'aA', 'ac', 'cC'): 1, ('bB', 'bB'): 1, ('AC', 'aB', 'bc', 'BC', 'Ab', 'ac'): 1, ('AC', 'aB', 'bB', 'bc', 'aA', 'cC'): 1}
+abaaaaCCCbbC, {('cC', 'BC', 'bB', 'bc'): 1, ('aA', 'aA'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('aB', 'Ab', 'aA', 'cC', 'BC', 'bc'): 1, ('AC', 'aA', 'ac', 'cC'): 1}
+abaabbbaaCCC, {('cC', 'cC'): 1, ('Ab', 'aA', 'aB', 'bB'): 2, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abaaCbbCCCCC, {('cC', 'cC'): 1, ('BC', 'bB', 'bc', 'cC'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('AC', 'aB', 'aA', 'BC'): 1, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1}
+abaaCCCCbbCC, {('cC', 'cC'): 1, ('Ab', 'aA', 'ac', 'cC', 'BC', 'bB'): 1, ('aB', 'ac', 'BC', 'cC'): 1, ('AC', 'Ab', 'cC', 'bc'): 1, ('AC', 'aB', 'aA', 'cC', 'bB', 'bc'): 1}
+ababbCbbaaCC, {('BC', 'bB', 'Ab', 'aA', 'ac', 'cC'): 1, ('aB', 'bB', 'bc', 'ac'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'bB', 'aA'): 1, ('AC', 'BC', 'bB', 'Ab'): 1, ('AC', 'Ab', 'bc', 'cC'): 1}
+abaaCbbabbCC, {('ac', 'aB', 'bB', 'bc'): 1, ('Ab', 'Ab'): 1, ('aB', 'ac', 'BC', 'cC'): 1, ('aB', 'aA', 'bB', 'Ab'): 1, ('AC', 'aA', 'aB', 'bB', 'bc', 'cC'): 1, ('AC', 'Ab', 'BC', 'bB'): 1}
+abaaCbbCCaCC, {('BC', 'bB', 'bc', 'cC'): 1, ('ac', 'ac'): 1, ('Ab', 'bc', 'cC', 'AC'): 1, ('aB', 'aA', 'BC', 'AC'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1}
+abaabCCbbaaC, {('bc', 'Ab', 'aA', 'ac'): 1, ('Ab', 'aA', 'aB', 'bB'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'bc', 'cC', 'BC', 'aA'): 1, ('AC', 'BC', 'bB', 'Ab'): 1, ('AC', 'aA', 'cC', 'ac'): 1}
+abaaCbbbbCCC, {('bB', 'bB'): 3, ('BC', 'bB', 'bc', 'cC'): 3, ('aB', 'Ab', 'aA', 'bB'): 2, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 2, ('AC', 'aA', 'ac', 'cC'): 4, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 2}
+abbaaaCbbbCC, {('bB', 'bB'): 1, ('aA', 'aA'): 1, ('bB', 'BC', 'bc', 'cC'): 1, ('aB', 'ac', 'bB', 'bc'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'Ab', 'BC', 'bB'): 1}
+abCCbbbaaCCC, {('cC', 'cC'): 1, ('bB', 'bB'): 1, ('bc', 'cC', 'BC', 'bB'): 1, ('aB', 'bc', 'cC', 'BC', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+aaabbbaaaCCC, {('cC', 'cC'): 1, ('aA', 'aA'): 1, ('bB', 'bB'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('aA', 'aB', 'bB', 'Ab'): 1, ('AC', 'aA', 'ac', 'cC'): 1}
+abCCaccccbAB, {('cC', 'cC'): 1, ('AC', 'aC', 'ab', 'Ab'): 1, ('aB', 'aC', 'cC', 'Bc'): 1, ('AB', 'bc', 'Bc', 'Ab'): 1, ('AB', 'aB', 'bc', 'AC', 'cC', 'ab'): 1}
+abaaabbCCbaC, {('aB', 'cC', 'BC', 'ac'): 1, ('Ab', 'aA', 'bc', 'ac'): 1, ('aB', 'aA', 'bB', 'Ab'): 1, ('AC', 'aA', 'aB', 'BC'): 1, ('AC', 'Ab', 'bc', 'cC'): 1}
+abaaaCCCbbCC, {('cC', 'cC'): 1, ('cC', 'BC', 'bB', 'bc'): 1, ('aA', 'aA'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'Ab', 'ac', 'BC', 'bc'): 1}
+abaabbaCbbCC, {('BC', 'bB', 'bc', 'cC'): 1, ('bB', 'bB'): 1, ('aA', 'bB', 'Ab', 'ac', 'BC', 'cC'): 1, ('Ab', 'Ab'): 1, ('Ab', 'aA', 'aB', 'bB'): 1, ('aB', 'aB'): 1, ('AC', 'Ab', 'aB', 'ac', 'BC', 'bc'): 1, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1, ('AC', 'aB', 'Ab', 'ac', 'BC', 'bc'): 1, ('AC', 'aB', 'aA', 'bB', 'bc', 'cC'): 1}
+abaaCCbCCbbC, {('bc', 'cC', 'BC', 'bB'): 1, ('BC', 'BC'): 1, ('cC', 'cC'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('AC', 'aB', 'aA', 'cC', 'bB', 'bc'): 1, ('AC', 'aB', 'Ab', 'ac', 'BC', 'bc'): 1}
+abaaCCCbbCbC, {('bc', 'bc'): 1, ('cC', 'BC', 'bB', 'bc'): 3, ('Ab', 'aA', 'ac', 'cC', 'bB', 'BC'): 1, ('aB', 'ac', 'cC', 'BC'): 1, ('aB', 'Ab', 'aA', 'cC', 'BC', 'bc'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'Ab', 'cC', 'bc'): 1, ('AC', 'aB', 'aA', 'BC'): 1, ('AC', 'aB', 'Ab', 'ac', 'BC', 'bc'): 1}
+abacccbAbCCC, {('cC', 'cC'): 2, ('Ab', 'Bc', 'AB', 'bc'): 1, ('aB', 'Bc', 'ab', 'bc'): 1, ('AC', 'Ab', 'aC', 'ab'): 1, ('AC', 'aB', 'aC', 'AB'): 1}
+abbaaaaCbbCC, {('aA', 'aA'): 1, ('bB', 'bB'): 2, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'bB', 'aA', 'ac', 'BC', 'bc'): 1, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1}
+abbCCbbaaCCC, {('cC', 'cC'): 1, ('bB', 'BC', 'Ab', 'aA', 'ac', 'cC'): 1, ('aB', 'bB', 'bc', 'ac'): 1, ('AC', 'BC', 'bB', 'Ab'): 1, ('AC', 'aB', 'bc', 'bB', 'aA', 'cC'): 1}
+abaaCCaaCbbC, {('AC', 'aA', 'ac', 'BC', 'bB', 'bc'): 1, ('cC', 'AC', 'aA', 'ac'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('AC', 'aB', 'aA', 'BC'): 1, ('AC', 'aB', 'Ab', 'ac', 'cC', 'bB'): 1}
+abaabaCbbbCC, {('aB', 'ac', 'bB', 'bc'): 1, ('Ab', 'aA', 'aB', 'BC', 'bc', 'cC'): 1, ('aB', 'aA', 'Ab', 'bB'): 1, ('AC', 'Ab', 'BC', 'bB'): 1, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1}
+abbaaaacccbb, {('cC', 'cC'): 1, ('aA', 'aA'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('Ab', 'aA', 'aC', 'cC', 'Bc', 'bB'): 1}
+abbCbbbaaCCC, {('cC', 'cC'): 2, ('bB', 'bB'): 3, ('bc', 'BC', 'bB', 'cC'): 1, ('bB', 'bc', 'BC', 'cC'): 1, ('aB', 'bB', 'Ab', 'aA'): 3, ('aB', 'bB', 'bc', 'ac'): 2, ('AC', 'aA', 'ac', 'cC'): 2, ('AC', 'bB', 'BC', 'Ab'): 2, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abacccbCCCaB, {('cC', 'cC'): 2, ('Ab', 'aC', 'AC', 'ab'): 1, ('aB', 'Bc', 'bc', 'ab'): 1, ('AB', 'Ab', 'Bc', 'bc'): 1, ('AB', 'aB', 'aC', 'AC'): 1}
+abaabaaCbbCC, {('Ab', 'aA', 'ac', 'bc'): 1, ('Ab', 'aA', 'aB', 'bB'): 2, ('aB', 'ac', 'BC', 'cC'): 1, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'aB', 'aA', 'BC'): 1}
+abaaCCbbbCCC, {('cC', 'cC'): 3, ('bB', 'bB'): 2, ('BC', 'bB', 'bc', 'cC'): 2, ('cC', 'BC', 'bB', 'bc'): 1, ('aB', 'ac', 'cC', 'BC'): 2, ('aB', 'Ab', 'aA', 'bB'): 2, ('AC', 'aA', 'ac', 'cC'): 3, ('AC', 'Ab', 'cC', 'bc'): 2, ('AC', 'aB', 'Ab', 'ac', 'cC', 'bB'): 1}
+abaabaaCCbbC, {('Ab', 'aA', 'ac', 'bc'): 1, ('Ab', 'aA', 'aB', 'bB'): 2, ('aB', 'ac', 'cC', 'BC'): 1, ('AC', 'Ab', 'cC', 'bc'): 1, ('AC', 'aB', 'aA', 'BC'): 1}
+abaabccaacbb, {('cC', 'Ac', 'aA', 'aC'): 1, ('Ab', 'aA', 'aB', 'bB'): 2, ('Ab', 'aB', 'bC', 'Ac', 'aC', 'Bc'): 1, ('Ab', 'aB', 'bC', 'cC', 'aA', 'Bc'): 1}
+abbaaCbbbCCC, {('bB', 'bB'): 1, ('BC', 'bB', 'bc', 'cC'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abaaCCCbbCaC, {('cC', 'BC', 'bB', 'bc'): 1, ('ac', 'ac'): 1, ('aB', 'aA', 'BC', 'AC'): 1, ('aB', 'Ab', 'ac', 'cC', 'bB', 'AC'): 1, ('AC', 'aA', 'cC', 'ac'): 1, ('AC', 'Ab', 'cC', 'bc'): 1}
+abaaaCbbbbCC, {('bB', 'bB'): 2, ('aA', 'aA'): 1, ('Ab', 'aA', 'ac', 'BC', 'bB', 'cC'): 1, ('aB', 'ac', 'bB', 'bc'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('AC', 'aA', 'ac', 'BC', 'bB', 'bc'): 1, ('AC', 'Ab', 'BC', 'bB'): 1, ('AC', 'aB', 'aA', 'bB', 'bc', 'cC'): 1}
+abCCbbaaaaCC, {('aA', 'aA'): 1, ('cC', 'cC'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('aB', 'bc', 'cC', 'BC', 'Ab', 'aA'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'bc', 'BC', 'bB', 'aA', 'ac'): 1}
+abacccccbCaB, {('cC', 'cC'): 1, ('Ab', 'aC', 'AC', 'ab'): 1, ('aB', 'Bc', 'bc', 'ab'): 1, ('AB', 'cC', 'Bc', 'AC'): 1, ('AB', 'aB', 'Ab', 'aC', 'cC', 'bc'): 1}
+abbCCaaCCCbb, {('AC', 'aA', 'ac', 'cC'): 1, ('cC', 'cC'): 1, ('bB', 'bB'): 2, ('Ab', 'aB', 'bc', 'aA', 'cC', 'BC'): 1, ('Ab', 'aB', 'bc', 'AC', 'ac', 'BC'): 1}
+abCaaaCbbaCC, {('AC', 'aA', 'ac', 'cC'): 1, ('bc', 'aA', 'ac', 'Ab'): 1, ('aB', 'AC', 'aA', 'BC'): 1, ('aB', 'bc', 'bB', 'ac'): 1, ('AC', 'BC', 'bB', 'Ab'): 1}
+abaaCaCbbCCC, {('cC', 'cC'): 1, ('BC', 'bB', 'bc', 'cC'): 1, ('ac', 'ac'): 1, ('aA', 'ac', 'AC', 'cC'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'Ab', 'ac', 'AC', 'bB', 'cC'): 1, ('aB', 'Ab', 'ac', 'AC', 'BC', 'bc'): 1, ('AC', 'AC'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'aB', 'aA', 'BC'): 1, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1}
+aabbbaaCCCCC, {('cC', 'cC'): 1, ('bB', 'bB'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('aA', 'aB', 'bB', 'Ab'): 1, ('AC', 'aA', 'ac', 'cC'): 1}
+abaaabbaCCbC, {('aA', 'aB', 'bB', 'Ab'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'aB'): 1, ('aB', 'aA', 'Ab', 'cC', 'BC', 'bc'): 1, ('AC', 'aA', 'ac', 'cC'): 1, ('AC', 'Ab', 'bB', 'BC'): 1}
+abaaaCbbCCCC, {('cC', 'cC'): 1, ('BC', 'bB', 'bc', 'cC'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('aB', 'Ab', 'aA', 'BC', 'bc', 'cC'): 1, ('AC', 'aA', 'ac', 'cC'): 1}
+abaaCbbbCCCC, {('cC', 'cC'): 3, ('bB', 'bB'): 2, ('BC', 'bB', 'bc', 'cC'): 2, ('aB', 'ac', 'bB', 'bc'): 2, ('aB', 'ac', 'BC', 'cC'): 2, ('aB', 'Ab', 'aA', 'bB'): 2, ('AC', 'aA', 'ac', 'cC'): 2, ('AC', 'Ab', 'bc', 'cC'): 1, ('AC', 'Ab', 'BC', 'bB'): 2}
+abaaabaCbbCC, {('aA', 'aA'): 1, ('Ab', 'aA', 'aB', 'BC', 'bc', 'cC'): 1, ('Ab', 'aA', 'aB', 'bB'): 1, ('AC', 'aB', 'Ab', 'ac', 'bB', 'cC'): 1, ('AC', 'aB', 'Ab', 'ac', 'BC', 'bc'): 1}
+abacccccbAcB, {('cC', 'cC'): 1, ('Ab', 'aC', 'ab', 'AC'): 1, ('aB', 'Bc', 'ab', 'bc'): 1, ('AB', 'cC', 'Bc', 'AC'): 1, ('AB', 'aB', 'Ab', 'aC', 'cC', 'bc'): 1}
+abCCCaBCCCAB, {('AC', 'ab', 'aC', 'Ab'): 1, ('cC', 'cC'): 2, ('aB', 'bc', 'ab', 'Bc'): 1, ('AB', 'bc', 'Bc', 'Ab'): 1, ('AB', 'aB', 'AC', 'aC'): 1}
+abaBcaCCCCCB, {('cC', 'cC'): 1, ('Ab', 'Ac', 'cC', 'bC'): 1, ('aB', 'BC', 'ac', 'cC'): 1, ('AB', 'Ab', 'ab', 'BC', 'ac', 'cC'): 1, ('AB', 'aB', 'ab', 'Ac', 'cC', 'bC'): 1}
+abaaCbbCaaCC, {('BC', 'bB', 'bc', 'cC'): 1, ('ac', 'ac'): 1, ('aA', 'aA'): 1, ('aB', 'Ab', 'bB', 'aA'): 1, ('aB', 'Ab', 'ac', 'BC', 'bc', 'AC'): 1, ('AC', 'AC'): 1, ('AC', 'aA', 'ac', 'cC'): 1}
+abaCbaaabbCC, {('ac', 'aB', 'bB', 'bc'): 1, ('Ab', 'Ab'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('aB', 'Ab', 'BC', 'aA', 'bc', 'cC'): 1, ('AC', 'BC', 'aA', 'aB'): 1, ('AC', 'ac', 'aA', 'cC'): 1}
+abaaaacccbbb, {('bB', 'bB'): 1, ('cC', 'cC'): 2, ('aA', 'aA'): 3, ('Ab', 'aA', 'aC', 'cC', 'Bc', 'bB'): 1, ('aB', 'aC', 'cC', 'Bc'): 1, ('aB', 'Ab', 'aA', 'bB'): 1, ('Ab', 'Ab'): 1, ('Ab', 'aB', 'aA', 'bB'): 1}
+abaaabbbaCCC, {('cC', 'cC'): 1, ('aA', 'aA'): 1, ('Ab', 'aA', 'aB', 'bB'): 1, ('AC', 'aB', 'bB', 'Ab', 'ac', 'cC'): 1}
+abaccbCCCCaB, {('cC', 'cC'): 2, ('Ab', 'bc', 'cC', 'AC'): 1, ('aB', 'aC', 'cC', 'Bc'): 1, ('AB', 'Ab', 'aC', 'cC', 'Bc', 'ab'): 1, ('AB', 'aB', 'bc', 'cC', 'AC', 'ab'): 1}
+abbaaCCbbbCC, {('bB', 'bB'): 1, ('cC', 'cC'): 2, ('aB', 'ac', 'bB', 'bc'): 1, ('aB', 'bB', 'Ab', 'aA'): 1, ('AC', 'Ab', 'BC', 'bB'): 1, ('AC', 'bB', 'aA', 'ac', 'BC', 'bc'): 1}
+abaaaabcccbb, {('cC', 'cC'): 2, ('bC', 'cC', 'Bc', 'bB'): 1, ('aA', 'aA'): 1, ('Ab', 'aA', 'aB', 'bB'): 1, ('Ab', 'aA', 'aB', 'bC', 'cC', 'Bc'): 1, ('aB', 'aB'): 1, ('Ab', 'Ab'): 1, ('Ab', 'aB', 'aA', 'bC', 'cC', 'Bc'): 1, ('Ab', 'aB', 'aA', 'bB'): 1}
+abaaCCbbabbC, {('ac', 'aB', 'bB', 'bc'): 1, ('Ab', 'Ab'): 1, ('aB', 'ac', 'cC', 'BC'): 1, ('aB', 'aA', 'bB', 'Ab'): 1, ('AC', 'aA', 'cC', 'aB', 'bB', 'bc'): 1, ('AC', 'Ab', 'BC', 'bB'): 1}
+ababaaCCbbbC, {('bB', 'bB'): 1, ('Ab', 'aA', 'ac', 'bc'): 1, ('aB', 'ac', 'bB', 'bc'): 1, ('aB', 'ac', 'cC', 'BC'): 1, ('Ab', 'Ab'): 1, ('Ab', 'aB', 'aA', 'bB'): 1, ('aB', 'aB'): 1, ('aB', 'Ab', 'aA', 'cC', 'BC', 'bc'): 1, ('AC', 'Ab', 'BC', 'bB'): 1, ('AC', 'aB', 'aA', 'cC', 'bB', 'bc'): 1, ('AC', 'aB', 'Ab', 'ac', 'cC', 'bB'): 1}

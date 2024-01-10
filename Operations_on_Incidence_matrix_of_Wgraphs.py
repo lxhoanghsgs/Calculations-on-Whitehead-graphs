@@ -4,7 +4,6 @@ import math
 from gurobipy import GRB
 import numpy as np
 import itertools
-# import igraph
 import networkx
 # We work over the free group of rank 3.
 generator = ["a", "b", "c", "A", "B", "C"]
@@ -183,7 +182,7 @@ for w in checklist3:
                 dict_of_cycles_used = dict()
                 for k in range(len(sol)):
                     if sol[k] > 0:
-                        dict_of_cycles_used[sol[k]/M] = cycles_dict[cycles[k]]
+                        dict_of_cycles_used[tuple(cycles_dict[cycles[k]])] = int(sol[k]/M)
                 sol_dict[w] = dict_of_cycles_used
 
 with open(f'reduced_list_of_length_{w_length}_words.txt', 'w') as sourceFile:
