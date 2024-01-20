@@ -73,6 +73,22 @@ def get_whitehead_graph_with_edge_pairing(list_of_words: list) -> (np.ndarray, d
             w[1] = w[1].lower()
             res[gen_dict[w[1]], i] = 1
     return (res, dict_of_edge_pairing)
+def get_adjacent_edges(incidence_matrix: np.ndarray) -> dict:
+    res = {'a': [], 'A': [], 'b': [], 'B': [], 'c': [], 'C': []}
+    for i in range(np.shape(incidence_matrix)[-1]):
+        if incidence_matrix[:, i][0] == 1:
+            res['a'].append(i)
+        if incidence_matrix[:, i][1] == 1:
+            res['A'].append(i)
+        if incidence_matrix[:, i][2] == 1:
+            res['b'].append(i)
+        if incidence_matrix[:, i][3] == 1:
+            res['B'].append(i)
+        if incidence_matrix[:, i][4] == 1:
+            res['c'].append(i)
+        if incidence_matrix[:, i][5] == 1:
+            res['C'].append(i)
+    return res
 def is_connected(whitehead_graph: np.ndarray) -> bool:
     return np.linalg.matrix_rank(whitehead_graph) == n - 1
 def is_pairwise_well_connected(whitehead_graph):
@@ -141,7 +157,6 @@ def get_gcd_of_list(l: list) -> int:
     return res
 
 w_length = 11
-# An imposed condition. Let's see if it actually works.
 checklist3 = ['aabcaBcbcbC', 'aabcaBCBcbC', 'aabcbcbACbC', 'aabcbACBCbC', 'aabacbccabb', 'aaabcbcBcBC', 'aaaabaccbbc', 'aabcbAcbCBc', 'aabbaccbabc', 'aabcBCBcbAc', 'aaaabcBcbAC', 'aaabcbCbAAc', 'aabcbCBcbAc', 'aaabcaaBcbC', 'aaabcbcBcbC', 'aaabcbAAcBc', 'aabbaacbbcc', 'aabcBcbCbAc', 'aaabcbcBCbC', 'aabcbCbCbAC', 'aabcBcbcbAC', 'aabcaBCBCbC', 'aabcbAcBCbc', 'aabcBCbCbAc', 'aaaabcaBcBC', 'aaabbabbccc', 'aaabbaccbbc', 'aaabcBCbCBc', 'aababccbbac', 'aaabbccbccb', 'aaabcBCbAAC', 'aabcaBCBcBC', 'aabcbACbcBC', 'aabcbAcBCBc', 'aaaabcbAcBc', 'aabcaBCbCbC', 'aabcaBCbCBC', 'aabcbcbCbAc', 'aaabbaaccbc', 'aabcbACBcBC', 'aabcaBcBCBC', 'aaabcbCbCBC', 'aaaaabbcccb', 'aabcBcBcbAc', 'aaabbbaaccc', 'aabcbACbCBC', 'aababbacbcc', 'aaaabcBcbAc', 'aabcbCbcbAC', 'aabcbACBcbC', 'aabcBcBCbAc', 'aaabbacccbb', 'aabcbcBcbAC', 'aabacbabbcc', 'aaababcccbb', 'aaaabbccacb', 'aabcaBcBcBC', 'aabcbAcbCbc', 'aabbacabccb', 'aabcBcbcbAc', 'aaababbcccb', 'aaabcaaBcBC', 'aabcBCbcbAc', 'aaabcbCbcBC', 'aabaccabbcb', 'aabcBcBcbAC', 'aabbacbabcc', 'aaaaabbbccc', 'aaaabbcaccb', 'aaabcbCbCBc', 'aaaabbbbccc', 'aabcbCBCbAc', 'aaaabbaccbc', 'aababcbbacc', 'aababbaccbc', 'aaabacbbccc', 'aaabcbCbcbC', 'aabcBCbcbAC', 'aaaabbcccbb', 'aababacbbcc', 'aabcbcBCbAc', 'aabcBcaBcBC', 'aaabbccaacb', 'aabcBcBCbAC', 'aaabcbcbCbC', 'aabcbCBcbAC', 'aaabcaaBCbC', 'aabcBCBcbAC', 'aaabcBcbcBC', 'aaabcbCbcBc', 'aabcBCbCbAC', 'aaabbcaaccb', 'aaabcBcbCBc', 'aabacbbcacc', 'aabcBcbCbAC', 'aaabbaccbcc', 'aababaccbbc', 'aabcbCaBcbc', 'aaabbbacccb', 'aaabaccbbbc', 'aabcBcaBcbC', 'aaabcBCbcBC', 'aaabcBcBCbc', 'aabacabccbb', 'aaabaaccbbc', 'aabcaBcBCbC', 'aabcbAcbcBc', 'aaabcbCbAAC', 'aabcbCaBCBc', 'aaabbcaccbb', 'aaaabbbaccc', 'aabcbCBCbAC', 'aaabaacbbcc', 'aaabcBcbCbc', 'aaaabcaBcbC', 'aaabbbaccbc', 'aabcbACbcbC', 'aaabacccbbc', 'aabacacbbcc', 'aabcaBcbcBC', 'aaaabbbcccb', 'aabcbcaBCbC', 'aabaaccbbcc', 'aababcaccbb', 'aaabbaacbcc', 'aabcbAcBcbc', 'aabcbcBCbAC', 'aabacbbccbc', 'aaabcbCBcBC', 'aaaabcBCbAc', 'aabcbCaBCbc', 'aaabacccbbb', 'aaabbabcccb', 'aaabbccaccb', 'aaaabbacbcc', 'aaababbbccc', 'aabcBCaBCbc', 'aabacbbabcc', 'aaabccbbccb', 'aabcbcaBcBC', 'aabacbbccab', 'aaaabbccccb', 'aabcabbaccb', 'aaabbbacbcc', 'aaabcbCBcbC', 'aabcaBcBcbC', 'aaabcbCbCbc', 'aaabcBcbcbC', 'aabcbcbCbAC', 'aaaabacbbcc', 'aababccacbb', 'aaabbacbbcc', 'aabcbcbAcBc', 'aabacabbccb', 'aaaabcBCbAC', 'aaabcBcbAAc', 'aabcaBcbCBC', 'aaabaccbbcc', 'aabcaBCbcBC', 'aabcbcBcbAc', 'aaaabcbCbAC', 'aaabbccbbcc', 'aaabcBcbAAC', 'aababbcbacc', 'aabcBCBCbAc', 'aabcbCbCbAc', 'aaaabcaBCbC', 'aabcbCbcbAc', 'aabcBCBCbAC', 'aaabcBCbAAc', 'aabcbcaBcbC', 'aabcaBCbcbC', 'aabaccbabbc', 'aaaabcbCbAc', 'aabcaBcbCbC', 'aaabacbbbcc']
 sol_dict = dict()
 for w in checklist3:
@@ -157,32 +172,48 @@ for w in checklist3:
         # not printing logs to console.
         env.start()
         with gp.Model(env = env) as model:
-            vars = model.addMVar(shape = (1, l+1), vtype = GRB.INTEGER, lb = 0)
+            vars = model.addMVar(shape = (1, l+4), vtype = GRB.INTEGER, lb = 0)
+            # l+1 is for a and A
+            # l+2 is for b and B
+            # l+3 is for c and C
+# An imposed condition. Let's see if it actually works.
             model.addConstr(gp.quicksum(vars[0, j] for j in range(l) if sum(cycles[j]) >= 3) >= 1)
             for index in range(len(w)):
                 model.addConstr(gp.quicksum(vars[0, j_index] for j_index in range(l) if cycles[j_index][index] == 1) == vars[0, l])                    
             # conditions for balance
+            # change condition for balance: for each vertex in a, b, c, the number of occurrence of each pair of incident edges is the same. 
+            adjacency = get_adjacent_edges(A_G)
             for gen in ["a", "b", "c"]:
-                for (i, j) in itertools.combinations(edge_pairing[gen], 2):
-                    model.addConstr(gp.quicksum(vars[0, k] for k in range(l) if cycles[k][i[0]] == 1 and cycles[k][j[0]] == 1) == gp.quicksum(vars[0, k] for k in range(len(cycles)) if cycles[k][i[1]] == 1 and cycles[k][j[1]] == 1))
+                if gen == 'a':
+                    v = l+1
+                if gen == 'b':
+                    v = l+2
+                if gen == 'c':
+                    v = l+3
+                for (i, j) in itertools.combinations(adjacency[gen], 2):
+                    model.addConstr(gp.quicksum(vars[0, j_index] for j_index in range(l) if cycles[j_index][i] == 1 and cycles[j_index][j] == 1) == vars[0, v])
+                for (i, j) in itertools.combinations(adjacency[gen.upper()], 2):
+                    model.addConstr(gp.quicksum(vars[0, j_index] for j_index in range(l) if cycles[j_index][i] == 1 and cycles[j_index][j] == 1) == vars[0, v])
+                
+                # for (i, j) in itertools.combinations(edge_pairing[gen], 2):
+                #     model.addConstr(gp.quicksum(vars[0, k] for k in range(l) if cycles[k][i[0]] == 1 and cycles[k][j[0]] == 1) == gp.quicksum(vars[0, k] for k in range(len(cycles)) if cycles[k][i[1]] == 1 and cycles[k][j[1]] == 1))
             # calculations
-            model.setObjective(0, sense = GRB.MINIMIZE)
+            model.setObjective(gp.quicksum(vars[0, 0:l]), sense = GRB.MINIMIZE)
             model.Params.MIPFocus = 1
             # focus on finding feasible solutions
             model.optimize()
             try:
                 sol = [int(i) for i in model.X[0:l]]
-                M = get_gcd_of_list(sol)
             except:
                 death.append(w)
             else:
                 dict_of_cycles_used = dict()
                 for k in range(len(sol)):
                     if sol[k] > 0:
-                        dict_of_cycles_used[(k,) + tuple(cycles_dict[cycles[k]])] = int(sol[k]/M)
+                        dict_of_cycles_used[(k,) + tuple(cycles_dict[cycles[k]])] = sol[k]
                 sol_dict[w] = dict_of_cycles_used
 
-with open(f'reduced_list_of_length_{w_length}_words_with_imposed_condition.txt', 'w') as sourceFile:
+with open(f'reduced_list_of_length_{w_length}_words_with_STRONG_imposed_condition.txt', 'w') as sourceFile:
     for i in sol_dict.keys():
         sourceFile.write(f'{i}, {sol_dict[i]}\n')
     sourceFile.close()
